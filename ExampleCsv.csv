@@ -1,0 +1,11 @@
+Type	Identity	RemoteRoutingAddress
+RoomMailbox	contoso-Room4@contoso.com	contoso-Room4@contoso.mail.onmicrosoft.com
+RoomMailbox	contoso-Room6@contoso.com	contoso-Room6@contoso.mail.onmicrosoft.com
+RoomMailbox	contoso-Room5@contoso.com	contoso-Room5@contoso.mail.onmicrosoft.com
+UserMailbox	Cirrus@contoso.com	Cirrus@contoso.mail.onmicrosoft.com
+UserMailbox	Dado@contoso.com	Dado@contoso.mail.onmicrosoft.com
+UserMailbox	Ghost@contoso.com	Ghost@contoso.mail.onmicrosoft.com
+UserMailbox	Mars@contoso.com	Mars@contoso.mail.onmicrosoft.com
+UserMailbox	Moon@contoso.com	Moon@contoso.mail.onmicrosoft.com
+SharedMailbox	Saturn@contoso.com	Saturn@contoso.mail.onmicrosoft.com
+SharedMailbox	Showroom@contoso.com	Showroom@contoso.mail.onmicrosoft.com

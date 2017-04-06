@@ -1,0 +1,1 @@
+Get-User abner.guo | Where { -Not [string]::IsNullOrEmpty($_.UserPrincipalName) } | ForEach { Set-User -Identity $_.Guid.ToString() -WindowsEmailAddress $_.UserPrincipalName.ToString() }
