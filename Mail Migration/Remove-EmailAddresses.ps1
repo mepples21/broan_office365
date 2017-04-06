@@ -96,7 +96,7 @@ if ($ExchangePowerShell -eq $null) {
                     $i--
                 }
             }
-            Set-Mailbox -Identity $_.Identity -EmailAddresses $_.EmailAddresses
+            Set-RemoteMailbox -Identity $_.Identity -EmailAddresses $_.EmailAddresses
         }
     }
 
