@@ -96,8 +96,13 @@ if ($ExchangePowerShell -eq $null) {
                     $i--
                 }
             }
-            Set-Mailbox -Identity $_.Identity -EmailAddresses $_.EmailAddresses
+            Set-RemoteMailbox -Identity $_.Identity -EmailAddresses $_.EmailAddresses
         }
     }
+
+#Remove Email Addresses from Groups
+
+
+#Remove Email Addresses from Contacts
 
 Stop-Transcript
