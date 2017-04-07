@@ -100,4 +100,9 @@ if ($ExchangePowerShell -eq $null) {
         }
     }
 
+#Remove Email Addresses from Groups
+
+
+#Remove Email Addresses from Contacts
+
 Stop-Transcript
