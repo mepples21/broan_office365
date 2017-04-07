@@ -71,7 +71,7 @@ if ($ForwardingDomain) {
 
     foreach ($user in $userdata) {
         $forwardingaddress = $user.RemoteRoutingAddress + $ForwardingDomain
-        Set-Mailbox -Identity $user.Identity -DeliverToMailboxAndForward $true -ForwardingSMTPAddress $forwardingaddress
+        Set-Mailbox -Identity $user.TempUPN -DeliverToMailboxAndForward $true -ForwardingSMTPAddress $forwardingaddress
     }
 
 } else {
