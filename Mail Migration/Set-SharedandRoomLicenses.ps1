@@ -34,7 +34,6 @@ Set-MsolUserLicense -UserPrincipalName millessec@broan.onmicrosoft.com -RemoveLi
 Set-MsolUserLicense -UserPrincipalName milnec@broan.onmicrosoft.com -RemoveLicenses "broan:ENTERPRISEPACK"
 Set-MsolUserLicense -UserPrincipalName monettek@broan.onmicrosoft.com -RemoveLicenses "broan:ENTERPRISEPACK"
 Set-MsolUserLicense -UserPrincipalName ouellettea@broan.onmicrosoft.com -RemoveLicenses "broan:ENTERPRISEPACK"
-Set-MsolUserLicense -UserPrincipalName rma&depot@broan.onmicrosoft.com -RemoveLicenses "broan:ENTERPRISEPACK"
 Set-MsolUserLicense -UserPrincipalName sheremetaj@broan.onmicrosoft.com -RemoveLicenses "broan:ENTERPRISEPACK"
 Set-MsolUserLicense -UserPrincipalName Shirley.Fernandez@broan.onmicrosoft.com -RemoveLicenses "broan:ENTERPRISEPACK"
 Set-MsolUserLicense -UserPrincipalName aqexchange@broan.onmicrosoft.com -RemoveLicenses "broan:ENTERPRISEPACK"

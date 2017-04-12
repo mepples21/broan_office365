@@ -19,7 +19,6 @@ New-Mailbox -Shared -Name "Broan Communications-CA" -DisplayName "Broan Communic
 New-Mailbox -Shared -Name "Shipping" -DisplayName "Shipping" -OrganizationalUnit "OU=Resources,OU=Mississauga,OU=SITES,OU=BROAN,DC=broan,DC=com" -UserprincipalName shipping@broan-nutone.ca
 New-Mailbox -Shared -Name "Steve Auger" -DisplayName "Steve Auger" -OrganizationalUnit "OU=Resources,OU=Mississauga,OU=SITES,OU=BROAN,DC=broan,DC=com" -UserprincipalName augers@broan-nutone.ca
 New-Mailbox -Shared -Name "BNC-Order Desk" -DisplayName "BNC-Order Desk" -OrganizationalUnit "OU=Resources,OU=Mississauga,OU=SITES,OU=BROAN,DC=broan,DC=com" -UserprincipalName BNC-OrderDesk@broan-nutone.ca
-New-Mailbox -Shared -Name "BNC-PAYROLL&BENEFITS" -DisplayName "BNC-PAYROLL&BENEFITS" -OrganizationalUnit "OU=Resources,OU=Mississauga,OU=SITES,OU=BROAN,DC=broan,DC=com" -UserprincipalName BNC-PAYROLL@broan-nutone.ca
 New-Mailbox -Shared -Name "BNC Pricing and Catalogues" -DisplayName "BNC Pricing and Catalogues" -OrganizationalUnit "OU=Resources,OU=Mississauga,OU=SITES,OU=BROAN,DC=broan,DC=com" -UserprincipalName bnc-pricing@broan-nutone.ca
 New-Mailbox -Shared -Name "BNC-Techassist" -DisplayName "BNC-Techassist" -OrganizationalUnit "OU=Resources,OU=Mississauga,OU=SITES,OU=BROAN,DC=broan,DC=com" -UserprincipalName BNC-Techassist@broan-nutone.ca
 New-Mailbox -Shared -Name "BNC-BOA" -DisplayName "BNC-BOA" -OrganizationalUnit "OU=Resources,OU=Mississauga,OU=SITES,OU=BROAN,DC=broan,DC=com" -UserprincipalName BOA-NoReply@broan-nutone.ca
@@ -34,7 +33,6 @@ New-Mailbox -Shared -Name "Christine Millesse" -DisplayName "Christine Millesse"
 New-Mailbox -Shared -Name "Connie Milne" -DisplayName "Connie Milne" -OrganizationalUnit "OU=Resources,OU=Mississauga,OU=SITES,OU=BROAN,DC=broan,DC=com" -UserprincipalName milnec@broan-nutone.ca
 New-Mailbox -Shared -Name "Karine Monette" -DisplayName "Karine Monette" -OrganizationalUnit "OU=Resources,OU=Mississauga,OU=SITES,OU=BROAN,DC=broan,DC=com" -UserprincipalName monettek@broan-nutone.ca
 New-Mailbox -Shared -Name "Ashley Ouellette" -DisplayName "Ashley Ouellette" -OrganizationalUnit "OU=Resources,OU=Mississauga,OU=SITES,OU=BROAN,DC=broan,DC=com" -UserprincipalName ouellettea@broan-nutone.ca
-New-Mailbox -Shared -Name "BNC-Rma & Service Depot" -DisplayName "BNC-Rma & Service Depot" -OrganizationalUnit "OU=Resources,OU=Mississauga,OU=SITES,OU=BROAN,DC=broan,DC=com" -UserprincipalName rma&depot@broan-nutone.ca
 New-Mailbox -Shared -Name "Jim Sheremeta" -DisplayName "Jim Sheremeta" -OrganizationalUnit "OU=Resources,OU=Mississauga,OU=SITES,OU=BROAN,DC=broan,DC=com" -UserprincipalName sheremetaj@broan-nutone.ca
 New-Mailbox -Shared -Name "Shirley Fernandez" -DisplayName "Shirley Fernandez" -OrganizationalUnit "OU=Resources,OU=Mississauga,OU=SITES,OU=BROAN,DC=broan,DC=com" -UserprincipalName Shirley.Fernandez@broan-nutone.ca
 New-Mailbox -Shared -Name "AQ Exchange" -DisplayName "AQ Exchange" -OrganizationalUnit "OU=Resources,OU=Hartford,OU=SITES,OU=BROAN,DC=broan,DC=com" -UserprincipalName aqexchange@broan.com
