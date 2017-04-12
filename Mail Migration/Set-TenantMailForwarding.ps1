@@ -39,8 +39,7 @@ Wishlist
 
 #Inputs
 param(
-    [Parameter(Mandatory=$true)][string]$CsvPath,
-    [Parameter(Mandatory=$false)][string]$ForwardingDomain
+    [Parameter(Mandatory=$true)][string]$CsvPath
 )
 
 #Define functions
@@ -67,19 +66,9 @@ if ($ExchangeOnlinePowerShell -eq $null) {
 }
 
 #Run a foreach loop and enable each mailbox
-if ($ForwardingDomain) {
 
-    foreach ($user in $userdata) {
-        $forwardingaddress = $user.RemoteRoutingAddress + $ForwardingDomain
-        Set-Mailbox -Identity $user.TempUPN -DeliverToMailboxAndForward $true -ForwardingSMTPAddress $forwardingaddress
-    }
-
-} else {
-
-    foreach ($user in $userdata) {
-        Set-Mailbox -Identity $user.TempUPN -DeliverToMailboxAndForward $true -ForwardingSMTPAddress $user.RemoteRoutingAddress
-    }
-
+foreach ($user in $userdata) {
+    Set-Mailbox -Identity $user.TempUPN -DeliverToMailboxAndForward $true -ForwardingSMTPAddress $user.RemoteRoutingAddress
 }
 
 Stop-Transcript

@@ -66,10 +66,20 @@ if ($ExchangePowerShell -eq $null) {
     $domainstoremove = @()
     $domainstoremove = "broan.com"
 
-    #Gather user data
+    #Gather data
     $remotemailboxes = @()
     $remotemailboxes = Get-RemoteMailbox -ResultSize Unlimited
 
+    $distributiongroups = @()
+    $distributiongroups = Get-DistributionGroup -ResultSize Unlimited
+
+    $contacts = @()
+    $contacts = Get-MailContact -ResultSize Unlimited
+
+    $onpremmailboxes = @()
+    $onpremmailboxes = Get-Mailbox -ResultSize Unlimited
+
+    #Remove email addresses for each domain
     foreach ($domain in $domainstoremove) {
         $remotemailboxes | ForEach-Object {
             for ($i=0;$i -lt $_.EmailAddresses.Count; $i++)
@@ -84,11 +94,45 @@ if ($ExchangePowerShell -eq $null) {
             }
             Set-RemoteMailbox -Identity $_.Identity -EmailAddresses $_.EmailAddresses
         }
+        $distributiongroups | ForEach-Object {
+            for ($i=0;$i -lt $_.EmailAddresses.Count; $i++)
+            {
+                $address = $_.EmailAddresses[$i]
+                if ($address.IsPrimaryAddress -eq $false -and $address.SmtpAddress -like $domain )
+                {
+                    Write-Host($address.AddressString.ToString() | out-file c:\addressesRemoved -Append )
+                    $_.EmailAddresses.RemoveAt($i)
+                    $i--
+                }
+            }
+            Set-DistributionGroup -Identity $_.Identity -EmailAddresses $_.EmailAddresses
+        }
+        $contacts | ForEach-Object {
+            for ($i=0;$i -lt $_.EmailAddresses.Count; $i++)
+            {
+                $address = $_.EmailAddresses[$i]
+                if ($address.IsPrimaryAddress -eq $false -and $address.SmtpAddress -like $domain )
+                {
+                    Write-Host($address.AddressString.ToString() | out-file c:\addressesRemoved -Append )
+                    $_.EmailAddresses.RemoveAt($i)
+                    $i--
+                }
+            }
+            Set-MailContact -Identity $_.Identity -EmailAddresses $_.EmailAddresses
+        }
+        $onpremmailboxes | ForEach-Object {
+            for ($i=0;$i -lt $_.EmailAddresses.Count; $i++)
+            {
+                $address = $_.EmailAddresses[$i]
+                if ($address.IsPrimaryAddress -eq $false -and $address.SmtpAddress -like $domain )
+                {
+                    Write-Host($address.AddressString.ToString() | out-file c:\addressesRemoved -Append )
+                    $_.EmailAddresses.RemoveAt($i)
+                    $i--
+                }
+            }
+            Set-Mailbox -Identity $_.Identity -EmailAddresses $_.EmailAddresses
+        }
     }
-
-#Remove Email Addresses from Groups
-
-
-#Remove Email Addresses from Contacts
 
 Stop-Transcript
