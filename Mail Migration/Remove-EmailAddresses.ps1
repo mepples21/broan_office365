@@ -64,21 +64,7 @@ if ($ExchangePowerShell -eq $null) {
 
     #Put domains to remove in an array
     $domainstoremove = @()
-    $domainstoremove = {
-        best-spa.com
-        broan.com
-        broan-nutone.ca
-        innergytech.com
-        venmar.ca
-        zephyronline.com
-        broan.ca
-        broanhvac.net
-        buffalocookware.com
-        nutone.ca
-        nutone.com
-        nutonehvac.com
-        ryuucutlery.com
-    }
+    $domainstoremove = "broan.com"
 
     #Gather user data
     $remotemailboxes = @()
