@@ -23,9 +23,7 @@ Wishlist
 /#>
 
 #Inputs
-param(
-    [Parameter(Mandatory=$true)][string]$CsvPath
-)
+
 
 
 #Define functions
@@ -47,19 +45,6 @@ if ($ExchangePowerShell -eq $null) {
     Exit(1)
 }
 
-
-#Convert cloud user on-prem objects to @nortekinc.mail.onmicrosoft.com primary addresses
-
-    #Gather mailbox data from CSV
-    $userdata = @()
-    $userdata = Import-Csv -Path $CsvPath
-
-    #Run a foreach loop to convert the identities
-    foreach ($user in $userdata) {
-        Set-RemoteMailbox -Identity $user.SamAccountName -EmailAddressPolicyEnabled $false
-        Set-RemoteMailbox -Identity $user.SamAccountName -WindowsEmailAddress $user.OldTenantAddress
-    }
-
 #Remove email addresses from domains that are not supported
 
     #Put domains to remove in an array
@@ -80,7 +65,7 @@ if ($ExchangePowerShell -eq $null) {
     $onpremmailboxes = Get-Mailbox -ResultSize Unlimited
 
     #Remove email addresses for each domain
-    foreach ($domain in $domainstoremove) {
+
         $remotemailboxes | ForEach-Object {
             for ($i=0;$i -lt $_.EmailAddresses.Count; $i++)
             {
@@ -133,6 +118,6 @@ if ($ExchangePowerShell -eq $null) {
             }
             Set-Mailbox -Identity $_.Identity -EmailAddresses $_.EmailAddresses
         }
-    }
+
 
 Stop-Transcript
