@@ -68,7 +68,7 @@ if ($MicrosoftOnlinePowerShell -eq $null) {
 #Run a foreach loop and enable each mailbox
 
 foreach ($user in $userdata) {
-    Set-Msoluser -UserPrincipalName $user.TempUPN -NewUserPrincipalName $user.Identity
+    Set-MsolUserPrincipalName -UserPrincipalName $user.TempUPN -NewUserPrincipalName $user.Identity
 }
 
 Stop-Transcript

@@ -1,0 +1,251 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20170413225135
+Username: CONCURRENCY\mepping
+RunAs User: CONCURRENCY\mepping
+Machine: MEPPING-WIN10VM (Microsoft Windows NT 10.0.14393.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 1964
+PSVersion: 5.1.14393.953
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.14393.953
+BuildVersion: 10.0.14393.953
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is Set-BroanUPNs-2017-04-13-35.log
+Set-MsolUserPrincipalName : Access Denied. You do not have permissions to call this cmdlet.
+At Z:\Documents\Github\broan_office365\Mail Migration\Set-CloudUPNsToMatchEmail.ps1:71 char:5
++     Set-MsolUserPrincipalName -UserPrincipalName $user.TempUPN -NewUs ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [Set-MsolUserPrincipalName], MicrosoftOnlineException
+    + FullyQualifiedErrorId : Microsoft.Online.Administration.Automation.UserNotFoundException,Microsoft.Online.Administ
+ration.Automation.SetUserPrincipalName
+Set-MsolUserPrincipalName : Access Denied. You do not have permissions to call this cmdlet.
+At Z:\Documents\Github\broan_office365\Mail Migration\Set-CloudUPNsToMatchEmail.ps1:71 char:5
++     Set-MsolUserPrincipalName -UserPrincipalName $user.TempUPN -NewUs ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [Set-MsolUserPrincipalName], MicrosoftOnlineException
+    + FullyQualifiedErrorId : Microsoft.Online.Administration.Automation.UserNotFoundException,Microsoft.Online.Admini
+   stration.Automation.SetUserPrincipalName
+
+Set-MsolUserPrincipalName : Access Denied. You do not have permissions to call this cmdlet.
+At Z:\Documents\Github\broan_office365\Mail Migration\Set-CloudUPNsToMatchEmail.ps1:71 char:5
++     Set-MsolUserPrincipalName -UserPrincipalName $user.TempUPN -NewUs ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [Set-MsolUserPrincipalName], MicrosoftOnlineException
+    + FullyQualifiedErrorId : Microsoft.Online.Administration.Automation.UserNotFoundException,Microsoft.Online.Administ
+ration.Automation.SetUserPrincipalName
+Set-MsolUserPrincipalName : Access Denied. You do not have permissions to call this cmdlet.
+At Z:\Documents\Github\broan_office365\Mail Migration\Set-CloudUPNsToMatchEmail.ps1:71 char:5
++     Set-MsolUserPrincipalName -UserPrincipalName $user.TempUPN -NewUs ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [Set-MsolUserPrincipalName], MicrosoftOnlineException
+    + FullyQualifiedErrorId : Microsoft.Online.Administration.Automation.UserNotFoundException,Microsoft.Online.Admini
+   stration.Automation.SetUserPrincipalName
+
+Set-MsolUserPrincipalName : Access Denied. You do not have permissions to call this cmdlet.
+At Z:\Documents\Github\broan_office365\Mail Migration\Set-CloudUPNsToMatchEmail.ps1:71 char:5
++     Set-MsolUserPrincipalName -UserPrincipalName $user.TempUPN -NewUs ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [Set-MsolUserPrincipalName], MicrosoftOnlineException
+    + FullyQualifiedErrorId : Microsoft.Online.Administration.Automation.UserNotFoundException,Microsoft.Online.Administ
+ration.Automation.SetUserPrincipalName
+Set-MsolUserPrincipalName : Access Denied. You do not have permissions to call this cmdlet.
+At Z:\Documents\Github\broan_office365\Mail Migration\Set-CloudUPNsToMatchEmail.ps1:71 char:5
++     Set-MsolUserPrincipalName -UserPrincipalName $user.TempUPN -NewUs ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [Set-MsolUserPrincipalName], MicrosoftOnlineException
+    + FullyQualifiedErrorId : Microsoft.Online.Administration.Automation.UserNotFoundException,Microsoft.Online.Admini
+   stration.Automation.SetUserPrincipalName
+
+Set-MsolUserPrincipalName : Access Denied. You do not have permissions to call this cmdlet.
+At Z:\Documents\Github\broan_office365\Mail Migration\Set-CloudUPNsToMatchEmail.ps1:71 char:5
++     Set-MsolUserPrincipalName -UserPrincipalName $user.TempUPN -NewUs ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [Set-MsolUserPrincipalName], MicrosoftOnlineException
+    + FullyQualifiedErrorId : Microsoft.Online.Administration.Automation.UserNotFoundException,Microsoft.Online.Administ
+ration.Automation.SetUserPrincipalName
+Set-MsolUserPrincipalName : Access Denied. You do not have permissions to call this cmdlet.
+At Z:\Documents\Github\broan_office365\Mail Migration\Set-CloudUPNsToMatchEmail.ps1:71 char:5
++     Set-MsolUserPrincipalName -UserPrincipalName $user.TempUPN -NewUs ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [Set-MsolUserPrincipalName], MicrosoftOnlineException
+    + FullyQualifiedErrorId : Microsoft.Online.Administration.Automation.UserNotFoundException,Microsoft.Online.Admini
+   stration.Automation.SetUserPrincipalName
+
+Set-MsolUserPrincipalName : Access Denied. You do not have permissions to call this cmdlet.
+At Z:\Documents\Github\broan_office365\Mail Migration\Set-CloudUPNsToMatchEmail.ps1:71 char:5
++     Set-MsolUserPrincipalName -UserPrincipalName $user.TempUPN -NewUs ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [Set-MsolUserPrincipalName], MicrosoftOnlineException
+    + FullyQualifiedErrorId : Microsoft.Online.Administration.Automation.UserNotFoundException,Microsoft.Online.Administ
+ration.Automation.SetUserPrincipalName
+Set-MsolUserPrincipalName : Access Denied. You do not have permissions to call this cmdlet.
+At Z:\Documents\Github\broan_office365\Mail Migration\Set-CloudUPNsToMatchEmail.ps1:71 char:5
++     Set-MsolUserPrincipalName -UserPrincipalName $user.TempUPN -NewUs ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [Set-MsolUserPrincipalName], MicrosoftOnlineException
+    + FullyQualifiedErrorId : Microsoft.Online.Administration.Automation.UserNotFoundException,Microsoft.Online.Admini
+   stration.Automation.SetUserPrincipalName
+
+Set-MsolUserPrincipalName : Access Denied. You do not have permissions to call this cmdlet.
+At Z:\Documents\Github\broan_office365\Mail Migration\Set-CloudUPNsToMatchEmail.ps1:71 char:5
++     Set-MsolUserPrincipalName -UserPrincipalName $user.TempUPN -NewUs ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [Set-MsolUserPrincipalName], MicrosoftOnlineException
+    + FullyQualifiedErrorId : Microsoft.Online.Administration.Automation.UserNotFoundException,Microsoft.Online.Administ
+ration.Automation.SetUserPrincipalName
+Set-MsolUserPrincipalName : Access Denied. You do not have permissions to call this cmdlet.
+At Z:\Documents\Github\broan_office365\Mail Migration\Set-CloudUPNsToMatchEmail.ps1:71 char:5
++     Set-MsolUserPrincipalName -UserPrincipalName $user.TempUPN -NewUs ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [Set-MsolUserPrincipalName], MicrosoftOnlineException
+    + FullyQualifiedErrorId : Microsoft.Online.Administration.Automation.UserNotFoundException,Microsoft.Online.Admini
+   stration.Automation.SetUserPrincipalName
+
+Set-MsolUserPrincipalName : Access Denied. You do not have permissions to call this cmdlet.
+At Z:\Documents\Github\broan_office365\Mail Migration\Set-CloudUPNsToMatchEmail.ps1:71 char:5
++     Set-MsolUserPrincipalName -UserPrincipalName $user.TempUPN -NewUs ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [Set-MsolUserPrincipalName], MicrosoftOnlineException
+    + FullyQualifiedErrorId : Microsoft.Online.Administration.Automation.UserNotFoundException,Microsoft.Online.Administ
+ration.Automation.SetUserPrincipalName
+Set-MsolUserPrincipalName : Access Denied. You do not have permissions to call this cmdlet.
+At Z:\Documents\Github\broan_office365\Mail Migration\Set-CloudUPNsToMatchEmail.ps1:71 char:5
++     Set-MsolUserPrincipalName -UserPrincipalName $user.TempUPN -NewUs ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [Set-MsolUserPrincipalName], MicrosoftOnlineException
+    + FullyQualifiedErrorId : Microsoft.Online.Administration.Automation.UserNotFoundException,Microsoft.Online.Admini
+   stration.Automation.SetUserPrincipalName
+
+Set-MsolUserPrincipalName : Access Denied. You do not have permissions to call this cmdlet.
+At Z:\Documents\Github\broan_office365\Mail Migration\Set-CloudUPNsToMatchEmail.ps1:71 char:5
++     Set-MsolUserPrincipalName -UserPrincipalName $user.TempUPN -NewUs ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [Set-MsolUserPrincipalName], MicrosoftOnlineException
+    + FullyQualifiedErrorId : Microsoft.Online.Administration.Automation.UserNotFoundException,Microsoft.Online.Administ
+ration.Automation.SetUserPrincipalName
+Set-MsolUserPrincipalName : Access Denied. You do not have permissions to call this cmdlet.
+At Z:\Documents\Github\broan_office365\Mail Migration\Set-CloudUPNsToMatchEmail.ps1:71 char:5
++     Set-MsolUserPrincipalName -UserPrincipalName $user.TempUPN -NewUs ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [Set-MsolUserPrincipalName], MicrosoftOnlineException
+    + FullyQualifiedErrorId : Microsoft.Online.Administration.Automation.UserNotFoundException,Microsoft.Online.Admini
+   stration.Automation.SetUserPrincipalName
+
+Set-MsolUserPrincipalName : Access Denied. You do not have permissions to call this cmdlet.
+At Z:\Documents\Github\broan_office365\Mail Migration\Set-CloudUPNsToMatchEmail.ps1:71 char:5
++     Set-MsolUserPrincipalName -UserPrincipalName $user.TempUPN -NewUs ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [Set-MsolUserPrincipalName], MicrosoftOnlineException
+    + FullyQualifiedErrorId : Microsoft.Online.Administration.Automation.UserNotFoundException,Microsoft.Online.Administ
+ration.Automation.SetUserPrincipalName
+Set-MsolUserPrincipalName : Access Denied. You do not have permissions to call this cmdlet.
+At Z:\Documents\Github\broan_office365\Mail Migration\Set-CloudUPNsToMatchEmail.ps1:71 char:5
++     Set-MsolUserPrincipalName -UserPrincipalName $user.TempUPN -NewUs ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [Set-MsolUserPrincipalName], MicrosoftOnlineException
+    + FullyQualifiedErrorId : Microsoft.Online.Administration.Automation.UserNotFoundException,Microsoft.Online.Admini
+   stration.Automation.SetUserPrincipalName
+
+Set-MsolUserPrincipalName : Access Denied. You do not have permissions to call this cmdlet.
+At Z:\Documents\Github\broan_office365\Mail Migration\Set-CloudUPNsToMatchEmail.ps1:71 char:5
++     Set-MsolUserPrincipalName -UserPrincipalName $user.TempUPN -NewUs ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [Set-MsolUserPrincipalName], MicrosoftOnlineException
+    + FullyQualifiedErrorId : Microsoft.Online.Administration.Automation.UserNotFoundException,Microsoft.Online.Administ
+ration.Automation.SetUserPrincipalName
+Set-MsolUserPrincipalName : Access Denied. You do not have permissions to call this cmdlet.
+At Z:\Documents\Github\broan_office365\Mail Migration\Set-CloudUPNsToMatchEmail.ps1:71 char:5
++     Set-MsolUserPrincipalName -UserPrincipalName $user.TempUPN -NewUs ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [Set-MsolUserPrincipalName], MicrosoftOnlineException
+    + FullyQualifiedErrorId : Microsoft.Online.Administration.Automation.UserNotFoundException,Microsoft.Online.Admini
+   stration.Automation.SetUserPrincipalName
+
+Set-MsolUserPrincipalName : Access Denied. You do not have permissions to call this cmdlet.
+At Z:\Documents\Github\broan_office365\Mail Migration\Set-CloudUPNsToMatchEmail.ps1:71 char:5
++     Set-MsolUserPrincipalName -UserPrincipalName $user.TempUPN -NewUs ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [Set-MsolUserPrincipalName], MicrosoftOnlineException
+    + FullyQualifiedErrorId : Microsoft.Online.Administration.Automation.UserNotFoundException,Microsoft.Online.Administ
+ration.Automation.SetUserPrincipalName
+Set-MsolUserPrincipalName : Access Denied. You do not have permissions to call this cmdlet.
+At Z:\Documents\Github\broan_office365\Mail Migration\Set-CloudUPNsToMatchEmail.ps1:71 char:5
++     Set-MsolUserPrincipalName -UserPrincipalName $user.TempUPN -NewUs ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [Set-MsolUserPrincipalName], MicrosoftOnlineException
+    + FullyQualifiedErrorId : Microsoft.Online.Administration.Automation.UserNotFoundException,Microsoft.Online.Admini
+   stration.Automation.SetUserPrincipalName
+
+Set-MsolUserPrincipalName : Access Denied. You do not have permissions to call this cmdlet.
+At Z:\Documents\Github\broan_office365\Mail Migration\Set-CloudUPNsToMatchEmail.ps1:71 char:5
++     Set-MsolUserPrincipalName -UserPrincipalName $user.TempUPN -NewUs ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [Set-MsolUserPrincipalName], MicrosoftOnlineException
+    + FullyQualifiedErrorId : Microsoft.Online.Administration.Automation.UserNotFoundException,Microsoft.Online.Administ
+ration.Automation.SetUserPrincipalName
+Set-MsolUserPrincipalName : Access Denied. You do not have permissions to call this cmdlet.
+At Z:\Documents\Github\broan_office365\Mail Migration\Set-CloudUPNsToMatchEmail.ps1:71 char:5
++     Set-MsolUserPrincipalName -UserPrincipalName $user.TempUPN -NewUs ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [Set-MsolUserPrincipalName], MicrosoftOnlineException
+    + FullyQualifiedErrorId : Microsoft.Online.Administration.Automation.UserNotFoundException,Microsoft.Online.Admini
+   stration.Automation.SetUserPrincipalName
+
+Set-MsolUserPrincipalName : Access Denied. You do not have permissions to call this cmdlet.
+At Z:\Documents\Github\broan_office365\Mail Migration\Set-CloudUPNsToMatchEmail.ps1:71 char:5
++     Set-MsolUserPrincipalName -UserPrincipalName $user.TempUPN -NewUs ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [Set-MsolUserPrincipalName], MicrosoftOnlineException
+    + FullyQualifiedErrorId : Microsoft.Online.Administration.Automation.UserNotFoundException,Microsoft.Online.Administ
+ration.Automation.SetUserPrincipalName
+Set-MsolUserPrincipalName : Access Denied. You do not have permissions to call this cmdlet.
+At Z:\Documents\Github\broan_office365\Mail Migration\Set-CloudUPNsToMatchEmail.ps1:71 char:5
++     Set-MsolUserPrincipalName -UserPrincipalName $user.TempUPN -NewUs ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [Set-MsolUserPrincipalName], MicrosoftOnlineException
+    + FullyQualifiedErrorId : Microsoft.Online.Administration.Automation.UserNotFoundException,Microsoft.Online.Admini
+   stration.Automation.SetUserPrincipalName
+
+Set-MsolUserPrincipalName : Access Denied. You do not have permissions to call this cmdlet.
+At Z:\Documents\Github\broan_office365\Mail Migration\Set-CloudUPNsToMatchEmail.ps1:71 char:5
++     Set-MsolUserPrincipalName -UserPrincipalName $user.TempUPN -NewUs ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [Set-MsolUserPrincipalName], MicrosoftOnlineException
+    + FullyQualifiedErrorId : Microsoft.Online.Administration.Automation.UserNotFoundException,Microsoft.Online.Administ
+ration.Automation.SetUserPrincipalName
+Set-MsolUserPrincipalName : Access Denied. You do not have permissions to call this cmdlet.
+At Z:\Documents\Github\broan_office365\Mail Migration\Set-CloudUPNsToMatchEmail.ps1:71 char:5
++     Set-MsolUserPrincipalName -UserPrincipalName $user.TempUPN -NewUs ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [Set-MsolUserPrincipalName], MicrosoftOnlineException
+    + FullyQualifiedErrorId : Microsoft.Online.Administration.Automation.UserNotFoundException,Microsoft.Online.Admini
+   stration.Automation.SetUserPrincipalName
+
+Set-MsolUserPrincipalName : Access Denied. You do not have permissions to call this cmdlet.
+At Z:\Documents\Github\broan_office365\Mail Migration\Set-CloudUPNsToMatchEmail.ps1:71 char:5
++     Set-MsolUserPrincipalName -UserPrincipalName $user.TempUPN -NewUs ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [Set-MsolUserPrincipalName], MicrosoftOnlineException
+    + FullyQualifiedErrorId : Microsoft.Online.Administration.Automation.UserNotFoundException,Microsoft.Online.Administ
+ration.Automation.SetUserPrincipalName
+Set-MsolUserPrincipalName : Access Denied. You do not have permissions to call this cmdlet.
+At Z:\Documents\Github\broan_office365\Mail Migration\Set-CloudUPNsToMatchEmail.ps1:71 char:5
++     Set-MsolUserPrincipalName -UserPrincipalName $user.TempUPN -NewUs ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [Set-MsolUserPrincipalName], MicrosoftOnlineException
+    + FullyQualifiedErrorId : Microsoft.Online.Administration.Automation.UserNotFoundException,Microsoft.Online.Admini
+   stration.Automation.SetUserPrincipalName
+
+PS Z:\Documents\Github\broan_office365\Mail Migration> TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."
+PS Z:\Documents\Github\broan_office365\Mail Migration> exit
+**********************
+Windows PowerShell transcript end
+End time: 20170413225143
+**********************

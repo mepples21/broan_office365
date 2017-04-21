@@ -1,0 +1,715 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20170413225323
+Username: CONCURRENCY\mepping
+RunAs User: CONCURRENCY\mepping
+Machine: MEPPING-WIN10VM (Microsoft Windows NT 10.0.14393.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 6428
+PSVersion: 5.1.14393.953
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.14393.953
+BuildVersion: 10.0.14393.953
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is Set-BroanUPNs-2017-04-13-23.log
+Set-MsolUserPrincipalName : Access Denied. You do not have permissions to call this cmdlet.
+At Z:\Documents\Github\broan_office365\Mail Migration\Set-CloudUPNsToMatchEmail.ps1:71 char:5
++     Set-MsolUserPrincipalName -UserPrincipalName $user.TempUPN -NewUs ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [Set-MsolUserPrincipalName], MicrosoftOnlineException
+    + FullyQualifiedErrorId : Microsoft.Online.Administration.Automation.UserNotFoundException,Microsoft.Online.Administ
+ration.Automation.SetUserPrincipalName
+Set-MsolUserPrincipalName : Access Denied. You do not have permissions to call this cmdlet.
+At Z:\Documents\Github\broan_office365\Mail Migration\Set-CloudUPNsToMatchEmail.ps1:71 char:5
++     Set-MsolUserPrincipalName -UserPrincipalName $user.TempUPN -NewUs ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [Set-MsolUserPrincipalName], MicrosoftOnlineException
+    + FullyQualifiedErrorId : Microsoft.Online.Administration.Automation.UserNotFoundException,Microsoft.Online.Administration.Automation.SetUserPrincipalName
+
+Set-MsolUserPrincipalName : Access Denied. You do not have permissions to call this cmdlet.
+At Z:\Documents\Github\broan_office365\Mail Migration\Set-CloudUPNsToMatchEmail.ps1:71 char:5
++     Set-MsolUserPrincipalName -UserPrincipalName $user.TempUPN -NewUs ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [Set-MsolUserPrincipalName], MicrosoftOnlineException
+    + FullyQualifiedErrorId : Microsoft.Online.Administration.Automation.UserNotFoundException,Microsoft.Online.Administ
+ration.Automation.SetUserPrincipalName
+Set-MsolUserPrincipalName : Access Denied. You do not have permissions to call this cmdlet.
+At Z:\Documents\Github\broan_office365\Mail Migration\Set-CloudUPNsToMatchEmail.ps1:71 char:5
++     Set-MsolUserPrincipalName -UserPrincipalName $user.TempUPN -NewUs ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [Set-MsolUserPrincipalName], MicrosoftOnlineException
+    + FullyQualifiedErrorId : Microsoft.Online.Administration.Automation.UserNotFoundException,Microsoft.Online.Administration.Automation.SetUserPrincipalName
+
+Set-MsolUserPrincipalName : Unable to update this user because the user principal name provided is not on a verified 
+domain.
+At Z:\Documents\Github\broan_office365\Mail Migration\Set-CloudUPNsToMatchEmail.ps1:71 char:5
++     Set-MsolUserPrincipalName -UserPrincipalName $user.TempUPN -NewUs ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [Set-MsolUserPrincipalName], MicrosoftOnlineException
+    + FullyQualifiedErrorId : Microsoft.Online.Administration.Automation.PropertyDomainValidationException,Microsoft.Onl
+ine.Administration.Automation.SetUserPrincipalName
+Set-MsolUserPrincipalName : Unable to update this user because the user principal name provided is not on a verified domain.
+At Z:\Documents\Github\broan_office365\Mail Migration\Set-CloudUPNsToMatchEmail.ps1:71 char:5
++     Set-MsolUserPrincipalName -UserPrincipalName $user.TempUPN -NewUs ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [Set-MsolUserPrincipalName], MicrosoftOnlineException
+    + FullyQualifiedErrorId : Microsoft.Online.Administration.Automation.PropertyDomainValidationException,Microsoft.Online.Administration.Automation.SetUserPrincipalName
+
+Set-MsolUserPrincipalName : Access Denied. You do not have permissions to call this cmdlet.
+At Z:\Documents\Github\broan_office365\Mail Migration\Set-CloudUPNsToMatchEmail.ps1:71 char:5
++     Set-MsolUserPrincipalName -UserPrincipalName $user.TempUPN -NewUs ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [Set-MsolUserPrincipalName], MicrosoftOnlineException
+    + FullyQualifiedErrorId : Microsoft.Online.Administration.Automation.UserNotFoundException,Microsoft.Online.Administ
+ration.Automation.SetUserPrincipalName
+Set-MsolUserPrincipalName : Access Denied. You do not have permissions to call this cmdlet.
+At Z:\Documents\Github\broan_office365\Mail Migration\Set-CloudUPNsToMatchEmail.ps1:71 char:5
++     Set-MsolUserPrincipalName -UserPrincipalName $user.TempUPN -NewUs ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [Set-MsolUserPrincipalName], MicrosoftOnlineException
+    + FullyQualifiedErrorId : Microsoft.Online.Administration.Automation.UserNotFoundException,Microsoft.Online.Administration.Automation.SetUserPrincipalName
+
+Set-MsolUserPrincipalName : Access Denied. You do not have permissions to call this cmdlet.
+At Z:\Documents\Github\broan_office365\Mail Migration\Set-CloudUPNsToMatchEmail.ps1:71 char:5
++     Set-MsolUserPrincipalName -UserPrincipalName $user.TempUPN -NewUs ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [Set-MsolUserPrincipalName], MicrosoftOnlineException
+    + FullyQualifiedErrorId : Microsoft.Online.Administration.Automation.UserNotFoundException,Microsoft.Online.Administ
+ration.Automation.SetUserPrincipalName
+Set-MsolUserPrincipalName : Access Denied. You do not have permissions to call this cmdlet.
+At Z:\Documents\Github\broan_office365\Mail Migration\Set-CloudUPNsToMatchEmail.ps1:71 char:5
++     Set-MsolUserPrincipalName -UserPrincipalName $user.TempUPN -NewUs ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [Set-MsolUserPrincipalName], MicrosoftOnlineException
+    + FullyQualifiedErrorId : Microsoft.Online.Administration.Automation.UserNotFoundException,Microsoft.Online.Administration.Automation.SetUserPrincipalName
+
+Set-MsolUserPrincipalName : Access Denied. You do not have permissions to call this cmdlet.
+At Z:\Documents\Github\broan_office365\Mail Migration\Set-CloudUPNsToMatchEmail.ps1:71 char:5
++     Set-MsolUserPrincipalName -UserPrincipalName $user.TempUPN -NewUs ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [Set-MsolUserPrincipalName], MicrosoftOnlineException
+    + FullyQualifiedErrorId : Microsoft.Online.Administration.Automation.UserNotFoundException,Microsoft.Online.Administ
+ration.Automation.SetUserPrincipalName
+Set-MsolUserPrincipalName : Access Denied. You do not have permissions to call this cmdlet.
+At Z:\Documents\Github\broan_office365\Mail Migration\Set-CloudUPNsToMatchEmail.ps1:71 char:5
++     Set-MsolUserPrincipalName -UserPrincipalName $user.TempUPN -NewUs ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [Set-MsolUserPrincipalName], MicrosoftOnlineException
+    + FullyQualifiedErrorId : Microsoft.Online.Administration.Automation.UserNotFoundException,Microsoft.Online.Administration.Automation.SetUserPrincipalName
+
+Set-MsolUserPrincipalName : Access Denied. You do not have permissions to call this cmdlet.
+At Z:\Documents\Github\broan_office365\Mail Migration\Set-CloudUPNsToMatchEmail.ps1:71 char:5
++     Set-MsolUserPrincipalName -UserPrincipalName $user.TempUPN -NewUs ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [Set-MsolUserPrincipalName], MicrosoftOnlineException
+    + FullyQualifiedErrorId : Microsoft.Online.Administration.Automation.UserNotFoundException,Microsoft.Online.Administ
+ration.Automation.SetUserPrincipalName
+Set-MsolUserPrincipalName : Access Denied. You do not have permissions to call this cmdlet.
+At Z:\Documents\Github\broan_office365\Mail Migration\Set-CloudUPNsToMatchEmail.ps1:71 char:5
++     Set-MsolUserPrincipalName -UserPrincipalName $user.TempUPN -NewUs ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [Set-MsolUserPrincipalName], MicrosoftOnlineException
+    + FullyQualifiedErrorId : Microsoft.Online.Administration.Automation.UserNotFoundException,Microsoft.Online.Administration.Automation.SetUserPrincipalName
+
+Set-MsolUserPrincipalName : Access Denied. You do not have permissions to call this cmdlet.
+At Z:\Documents\Github\broan_office365\Mail Migration\Set-CloudUPNsToMatchEmail.ps1:71 char:5
++     Set-MsolUserPrincipalName -UserPrincipalName $user.TempUPN -NewUs ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [Set-MsolUserPrincipalName], MicrosoftOnlineException
+    + FullyQualifiedErrorId : Microsoft.Online.Administration.Automation.UserNotFoundException,Microsoft.Online.Administ
+ration.Automation.SetUserPrincipalName
+Set-MsolUserPrincipalName : Access Denied. You do not have permissions to call this cmdlet.
+At Z:\Documents\Github\broan_office365\Mail Migration\Set-CloudUPNsToMatchEmail.ps1:71 char:5
++     Set-MsolUserPrincipalName -UserPrincipalName $user.TempUPN -NewUs ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [Set-MsolUserPrincipalName], MicrosoftOnlineException
+    + FullyQualifiedErrorId : Microsoft.Online.Administration.Automation.UserNotFoundException,Microsoft.Online.Administration.Automation.SetUserPrincipalName
+
+Set-MsolUserPrincipalName : Access Denied. You do not have permissions to call this cmdlet.
+At Z:\Documents\Github\broan_office365\Mail Migration\Set-CloudUPNsToMatchEmail.ps1:71 char:5
++     Set-MsolUserPrincipalName -UserPrincipalName $user.TempUPN -NewUs ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [Set-MsolUserPrincipalName], MicrosoftOnlineException
+    + FullyQualifiedErrorId : Microsoft.Online.Administration.Automation.UserNotFoundException,Microsoft.Online.Administ
+ration.Automation.SetUserPrincipalName
+Set-MsolUserPrincipalName : Access Denied. You do not have permissions to call this cmdlet.
+At Z:\Documents\Github\broan_office365\Mail Migration\Set-CloudUPNsToMatchEmail.ps1:71 char:5
++     Set-MsolUserPrincipalName -UserPrincipalName $user.TempUPN -NewUs ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [Set-MsolUserPrincipalName], MicrosoftOnlineException
+    + FullyQualifiedErrorId : Microsoft.Online.Administration.Automation.UserNotFoundException,Microsoft.Online.Administration.Automation.SetUserPrincipalName
+
+Set-MsolUserPrincipalName : Access Denied. You do not have permissions to call this cmdlet.
+At Z:\Documents\Github\broan_office365\Mail Migration\Set-CloudUPNsToMatchEmail.ps1:71 char:5
++     Set-MsolUserPrincipalName -UserPrincipalName $user.TempUPN -NewUs ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [Set-MsolUserPrincipalName], MicrosoftOnlineException
+    + FullyQualifiedErrorId : Microsoft.Online.Administration.Automation.UserNotFoundException,Microsoft.Online.Administ
+ration.Automation.SetUserPrincipalName
+Set-MsolUserPrincipalName : Access Denied. You do not have permissions to call this cmdlet.
+At Z:\Documents\Github\broan_office365\Mail Migration\Set-CloudUPNsToMatchEmail.ps1:71 char:5
++     Set-MsolUserPrincipalName -UserPrincipalName $user.TempUPN -NewUs ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [Set-MsolUserPrincipalName], MicrosoftOnlineException
+    + FullyQualifiedErrorId : Microsoft.Online.Administration.Automation.UserNotFoundException,Microsoft.Online.Administration.Automation.SetUserPrincipalName
+
+Set-MsolUserPrincipalName : Access Denied. You do not have permissions to call this cmdlet.
+At Z:\Documents\Github\broan_office365\Mail Migration\Set-CloudUPNsToMatchEmail.ps1:71 char:5
++     Set-MsolUserPrincipalName -UserPrincipalName $user.TempUPN -NewUs ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [Set-MsolUserPrincipalName], MicrosoftOnlineException
+    + FullyQualifiedErrorId : Microsoft.Online.Administration.Automation.UserNotFoundException,Microsoft.Online.Administ
+ration.Automation.SetUserPrincipalName
+Set-MsolUserPrincipalName : Access Denied. You do not have permissions to call this cmdlet.
+At Z:\Documents\Github\broan_office365\Mail Migration\Set-CloudUPNsToMatchEmail.ps1:71 char:5
++     Set-MsolUserPrincipalName -UserPrincipalName $user.TempUPN -NewUs ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [Set-MsolUserPrincipalName], MicrosoftOnlineException
+    + FullyQualifiedErrorId : Microsoft.Online.Administration.Automation.UserNotFoundException,Microsoft.Online.Administration.Automation.SetUserPrincipalName
+
+Set-MsolUserPrincipalName : Access Denied. You do not have permissions to call this cmdlet.
+At Z:\Documents\Github\broan_office365\Mail Migration\Set-CloudUPNsToMatchEmail.ps1:71 char:5
++     Set-MsolUserPrincipalName -UserPrincipalName $user.TempUPN -NewUs ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [Set-MsolUserPrincipalName], MicrosoftOnlineException
+    + FullyQualifiedErrorId : Microsoft.Online.Administration.Automation.UserNotFoundException,Microsoft.Online.Administ
+ration.Automation.SetUserPrincipalName
+Set-MsolUserPrincipalName : Access Denied. You do not have permissions to call this cmdlet.
+At Z:\Documents\Github\broan_office365\Mail Migration\Set-CloudUPNsToMatchEmail.ps1:71 char:5
++     Set-MsolUserPrincipalName -UserPrincipalName $user.TempUPN -NewUs ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [Set-MsolUserPrincipalName], MicrosoftOnlineException
+    + FullyQualifiedErrorId : Microsoft.Online.Administration.Automation.UserNotFoundException,Microsoft.Online.Administration.Automation.SetUserPrincipalName
+
+Set-MsolUserPrincipalName : Access Denied. You do not have permissions to call this cmdlet.
+At Z:\Documents\Github\broan_office365\Mail Migration\Set-CloudUPNsToMatchEmail.ps1:71 char:5
++     Set-MsolUserPrincipalName -UserPrincipalName $user.TempUPN -NewUs ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [Set-MsolUserPrincipalName], MicrosoftOnlineException
+    + FullyQualifiedErrorId : Microsoft.Online.Administration.Automation.UserNotFoundException,Microsoft.Online.Administ
+ration.Automation.SetUserPrincipalName
+Set-MsolUserPrincipalName : Access Denied. You do not have permissions to call this cmdlet.
+At Z:\Documents\Github\broan_office365\Mail Migration\Set-CloudUPNsToMatchEmail.ps1:71 char:5
++     Set-MsolUserPrincipalName -UserPrincipalName $user.TempUPN -NewUs ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [Set-MsolUserPrincipalName], MicrosoftOnlineException
+    + FullyQualifiedErrorId : Microsoft.Online.Administration.Automation.UserNotFoundException,Microsoft.Online.Administration.Automation.SetUserPrincipalName
+
+Set-MsolUserPrincipalName : Unable to update this user because the user principal name provided is not on a verified 
+domain.
+At Z:\Documents\Github\broan_office365\Mail Migration\Set-CloudUPNsToMatchEmail.ps1:71 char:5
++     Set-MsolUserPrincipalName -UserPrincipalName $user.TempUPN -NewUs ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [Set-MsolUserPrincipalName], MicrosoftOnlineException
+    + FullyQualifiedErrorId : Microsoft.Online.Administration.Automation.PropertyDomainValidationException,Microsoft.Onl
+ine.Administration.Automation.SetUserPrincipalName
+Set-MsolUserPrincipalName : Unable to update this user because the user principal name provided is not on a verified domain.
+At Z:\Documents\Github\broan_office365\Mail Migration\Set-CloudUPNsToMatchEmail.ps1:71 char:5
++     Set-MsolUserPrincipalName -UserPrincipalName $user.TempUPN -NewUs ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [Set-MsolUserPrincipalName], MicrosoftOnlineException
+    + FullyQualifiedErrorId : Microsoft.Online.Administration.Automation.PropertyDomainValidationException,Microsoft.Online.Administration.Automation.SetUserPrincipalName
+
+Set-MsolUserPrincipalName : Access Denied. You do not have permissions to call this cmdlet.
+At Z:\Documents\Github\broan_office365\Mail Migration\Set-CloudUPNsToMatchEmail.ps1:71 char:5
++     Set-MsolUserPrincipalName -UserPrincipalName $user.TempUPN -NewUs ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [Set-MsolUserPrincipalName], MicrosoftOnlineException
+    + FullyQualifiedErrorId : Microsoft.Online.Administration.Automation.UserNotFoundException,Microsoft.Online.Administ
+ration.Automation.SetUserPrincipalName
+>> TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."
+PS Z:\Documents\Github\broan_office365\Mail Migration> Set-MsolUserPrincipalName -UserPrincipalName neil.roepke@broan.onmicrosoft.com -NewUserPrincipalName neil.roepke@broan.com
+PS Z:\Documents\Github\broan_office365\Mail Migration> Get-MsolUser -All
+
+UserPrincipalName                                        DisplayName                                               isLicensed
+-----------------                                        -----------                                               ----------
+pam.jerzak@broan.com                                     Pam Jerzak                                                True
+WOLF-R@broan.com                                         FTP WOLF-R                                                False
+consolidation.user9@broan.com                            Consolidation User9                                       False
+Omar.Gil@broan.com                                       Omar Gil                                                  True
+eva.favela@broan.com                                     Eva Favela                                                False
+NTN@broan.com                                            FTP NTN                                                   False
+suceli.herrera@broan.com                                 Suceli Herrera                                            True
+ZephyrRMA@broan.onmicrosoft.com                          Zephyr RMA                                                False
+RDSTest2@broan.com                                       RDS Test2                                                 False
+Patrick.Bergen@broan.com                                 Patrick Bergen                                            True
+ctxtest01@broan.onmicrosoft.com                          ctxtest01                                                 False
+nicholas.krueger@broan.com                               Nicholas Krueger                                          True
+Antonio.Bautista@broan.com                               Antonio Bautista                                          False
+daniel.bechtel@broan.com                                 Daniel Bechtel                                            False
+Wai.Yeung@broan.com                                      Wai Yeung                                                 True
+VEN-SalleCreativite@broan.onmicrosoft.com                VEN-Salle Creativite                                      False
+LavigneL@broan.onmicrosoft.com                           Lily Lavigne                                              True
+jorge.alvarado@broan.com                                 Jorge Alvarado                                            False
+pradeep.chukkala@broan.com                               Pradeep Raja Chukkala                                     True
+Carol.Brosel@broan.com                                   Carol Brosel                                              False
+BOEAdmin@broan.com                                       BOE Admin                                                 False
+BESTSPA-Mars@broan.onmicrosoft.com                       BEST SPA - Mars                                           False
+joanna.villagomez@broan.com                              Joanna Villagomez                                         False
+SRVWMS@broan.com                                         SRV WMS                                                   False
+BilodeauY@broan.onmicrosoft.com                          Yan Bilodeau                                              True
+filippetti@broan.com                                     Filippetti (Contactor)                                    False
+Annette.Mullins@broan.com                                Annette Mullins                                           False
+SewallS@broan.onmicrosoft.com                            Shane Sewall                                              False
+AOS@broan.com                                            FTP AOS                                                   False
+jeff.lastovich@broan.com                                 Jeff Lastovich                                            False
+Jeremy.Sandretti@broan.com                               Jeremy Sandretti                                          False
+Ask.Us@broan.com                                         Ask Us                                                    False
+roger.galdamez@broan.com                                 Roger Galdamez                                            True
+kristen.brothers@broan.com                               Kristen Brothers                                          False
+jake.ziebart@broan.com                                   Jake Ziebart                                              False
+srvlrf@broan.com                                         Landon Flaig - Admin                                      False
+BazinF@broan.onmicrosoft.com                             Frederic Bazin                                            True
+Dan.Karst@broan.com                                      Dan Karst                                                 False
+richard.herbst@broan.com                                 Richard Herbst                                            True
+bill.gregg@broan.com                                     Bill Gregg                                                False
+EOG-R@broan.com                                          FTP EOG-R                                                 False
+Lily.Xiao@broan.com                                      Lily Xiao                                                 True
+SMAH@broan.com                                           FTP SMAH                                                  False
+jeff.rogers@broan.com                                    Jeffrey Rogers                                            False
+Sherry.Schladweiler@broan.com                            Sherry Schladweiler                                       True
+kathy.keup@broan.com                                     Kathy Keup                                                False
+corey.kahut@broan.com                                    Corey Kahut                                               False
+BerubeC@broan.onmicrosoft.com                            Carl Berube                                               True
+Beata.Stankowska@broan.onmicrosoft.com                   Beata Stankowska                                          True
+DionneM@broan.onmicrosoft.com                            Marilyne Dionne                                           True
+LehouxJ@broan.onmicrosoft.com                            Jean-François Lehoux                                      False
+AQH.SurfaceHub@broan.com                                 AQH SurfaceHub                                            False
+David.Lee@broan.com                                      David Lee                                                 False
+scott.goral@broan.com                                    Scott Goral                                               False
+jerry.linder@broan.com                                   Jerome Linder                                             False
+bell.tech@broan.com                                      Bell Technical                                            False
+parcel.user3@broan.com                                   Parcel User3                                              False
+BOTest2@broan.com                                        BOTest2                                                   False
+IWAM_RNGAD01@broan.com                                   Internet Guest Account                                    False
+Iwona.Chomin@broan.onmicrosoft.com                       Iwona Chomin                                              True
+SophiaK@broan.onmicrosoft.com                            Sophia Kam                                                False
+wms.alerts@broan.com                                     wms alerts                                                False
+H_bertK@broan.onmicrosoft.com                            Kathleen Hébert                                           False
+Mauricio.Hidalgo@broan.com                               Mauricio Hidalgo                                          True
+Jack.Wang@broan.com                                      Jack Wang                                                 False
+Anne-MarieRheault@broan.onmicrosoft.com                  Anne-Marie Rheault                                        False
+VC43C4@broan.onmicrosoft.com                             Patrick Dumas                                             False
+ack@broan.com                                            Broan Ack                                                 False
+Ven.Marketing@broan.onmicrosoft.com                      Ven.Marketing                                             False
+Mike.Wu@broan.com                                        Mike Wu                                                   True
+jane.faust@broan.com                                     Jane Faust                                                False
+quint.jensen@broan.com                                   Quint Jensen                                              False
+Michael.Swiatek@broan.com                                Michael Swiatek                                           False
+Action.Zhao@broan.com                                    Action Zhao                                               False
+Inquiries.CN13461@broan.com                              Inquiries.CN1346                                          False
+MartinS@broan.onmicrosoft.com                            Simon Martin                                              True
+VargasR@broan.onmicrosoft.com                            Rodrigo Vargas                                            True
+Ken.Pfeifer@broan.com                                    Ken Pfeifer                                               False
+Julie.Stefanski@broan.com                                Julie Stefanski                                           False
+HealthMailbox71081f05e42c445f9583cca6213218da@broan.com  HealthMailbox-BROAN-EXCH-SMTP-Mailbox-Database-1367281608 False
+MartinG@broan.onmicrosoft.com                            Martin Gauthier                                           False
+holly.meyer@broan.com                                    Holly Meyer                                               False
+JambocusH@broan.onmicrosoft.com                          Hishaam Jambocus                                          False
+Steven.Kauper@broan.com                                  Steven Kauper                                             True
+LeclercH@broan.onmicrosoft.com                           Hélène Leclerc                                            True
+Carol.Justman@broan.com                                  Carol Justman                                             False
+Dennis.Kettler@broan.com                                 Dennis Kettler                                            False
+Claudio.Cacciamani@broan.onmicrosoft.com                 Claudio Cacciamani                                        True
+Mark.Schwersinske@broan.com                              Mark Schwersinske                                         True
+BESTSPA-Cirrus@broan.onmicrosoft.com                     BEST SPA - Cirrus                                         False
+BBPMWD-R@broan.com                                       FTP BBPMWD-R                                              False
+HealthMailboxd7f3039c64bb47489ce054cb426c72a8@broan.com  HealthMailbox-BROAN-EXCH-SMTP-001                         False
+Angela.Qiu@broan.com                                     Angela Qiu                                                False
+Hugo.Sun@broan.com                                       Hugo Sun                                                  False
+steve.hintz@broan.com                                    Steve Hintz                                               False
+DFTSala@broan.com                                        BBPM-DFT Sala                                             False
+margaret.kessler@broan.com                               Margaret Kessler                                          True
+Migration.8f3e7716-2011-43e4-96b1-aba62d229136@broan.com Microsoft Exchange Migration                              False
+LeblondB@broan.onmicrosoft.com                           Benoit Leblond                                            True
+soniyaa.dighe@broan.com                                  Soniyaa Dighe                                             False
+Jhoan.Ibarra@broan.com                                   Jhoan Ibarra                                              False
+luis.esparza@broan.com                                   Luis Esparza                                              True
+bnv.spworkflow@broan.com                                 Sharepoint Workflow                                       False
+Contractadmin@broan.com                                  Contract Admin                                            False
+zachary.held@broan.com                                   Zachary Held                                              True
+PouliotM@broan.onmicrosoft.com                           Marsha Pouliot                                            True
+Salvador.Ramos@broan.com                                 Salvador Ramos                                            False
+mike.lehto@broan.com                                     Mike Lehto                                                False
+Nancy.Zhong@broan.com                                    Nancy Zhong                                               True
+sebastian.koller@broan.com                               Sebastian Koller                                          True
+AFM@broan.com                                            FTP AFM                                                   False
+Tim.Zhou@broan.com                                       Tim Zhou                                                  True
+srvprc@broan.com                                         Pradeep Chukkala - Admin                                  False
+ZiY@broan.onmicrosoft.com                                Zi Yeung                                                  True
+Greg.Ruggles@broan.com                                   Greg Ruggles                                              False
+spresource@broan.com                                     spresource                                                False
+Benjamin.Benitez@broan.com                               Benjamin Benitez                                          False
+Stefania.Falcioni@broan.onmicrosoft.com                  Stefania Falcioni                                         True
+Duck.Xie@broan.com                                       Duck Xie                                                  False
+DennisPerry@broan.onmicrosoft.com                        Dennis Perry                                              False
+vincent.hoffman@broan.com                                Vincent Hoffman                                           False
+Sally.Mittlesteadt@broan.com                             Sally Mittlesteadt                                        True
+bnc.workday@broan.com                                    bnc.workday                                               False
+daniel.doll@broan.com                                    Daniel Doll                                               False
+Mariusz.Mrowka@broan.onmicrosoft.com                     Mariusz Mrowka                                            True
+taylor.liesener@broan.com                                Taylor Liesener                                           True
+Diane.Cypher@broan.com                                   Diane Cypher                                              False
+NEWB@broan.com                                           FTP NEWB                                                  False
+Sherry.Shang@broan.com                                   Sherry Shang                                              True
+Manutenzione.Cerreto@broan.onmicrosoft.com               Manutenzione Cerreto                                      True
+kenneth.sperla@broan.com                                 Kenneth Sperla                                            False
+antony.frater@broan.com                                  Antony Frater                                             False
+Cathy.Hilt@broan.com                                     Cathy Hilt                                                False
+Expense.Paymgr@broan.com                                 Expense Paymgr                                            False
+manuel.sanchez@broan.com                                 Manuel Sanchez                                            True
+ASIA-R@broan.com                                         FTP ASIA-R                                                False
+loudan.ramirez@broan.com                                 Loudan Ramirez                                            True
+Cindy.Ma@broan.com                                       Cindy Ma                                                  False
+fortinetcitrix@broan.com                                 fortinetcitrix                                            False
+Jobquotes@broan.com                                      Job Quotes                                                False
+BNC-PAYROLL_BENEFITS@broan.onmicrosoft.com               BNC-PAYROLL&BENEFITS                                      False
+MarcotteJ@broan.onmicrosoft.com                          Julie Marcotte                                            True
+KonnurS@broan.onmicrosoft.com                            Sanjay Konnur                                             False
+ven.pas@broan.onmicrosoft.com                            ven.pas                                                   False
+marian.strupp@broan.com                                  Marian Strupp                                             True
+Gianluca.Settimi@broan.onmicrosoft.com                   Gianluca Settimi                                          True
+annette.wagner@broan.com                                 Annette Wagner                                            True
+Russell.Vine@broan.com                                   Russell Vine                                              True
+Thomas.Walczak@broan.com                                 Thomas Walczak                                            False
+DesmaraisP@broan.onmicrosoft.com                         Patrick Desmarais                                         True
+Gerry.Mueller@broan.com                                  Gerry Mueller                                             False
+Service.Econnect@broan.com                               Service.Econnect                                          False
+joshua.case@broan.com                                    Joshua Case                                               False
+Ryan.Thoma@broan.com                                     Ryan Thoma                                                False
+ven.tiger25@broan.onmicrosoft.com                        Ven.Tiger25                                               False
+Andrea.Mariani@broan.onmicrosoft.com                     Andrea Mariani                                            True
+angelina.yang@broan.com                                  Angelina Yang                                             False
+Patricia.Terrones@broan.com                              Patricia Terrones                                         True
+MichaudS@broan.onmicrosoft.com                           Stéphane Michaud                                          True
+Zbigniew.Zych@broan.onmicrosoft.com                      Zbigniew Zych                                             False
+Troy.Christenson@broan.com                               Troy Christenson                                          False
+DucharmeC@broan.onmicrosoft.com                          Cindy Ducharme                                            True
+Munger-GagnonT@broan.onmicrosoft.com                     Tania Munger-Gagnon                                       False
+kevin.monahan@broan.com                                  Kevin Monahan                                             True
+BEST@broan.com                                           FTP BEST                                                  False
+zach.enea@broan.com                                      Zach Enea                                                 True
+shawn.jacklin@broan.com                                  Shawn Jacklin                                             True
+PP-r@broan.com                                           FTP PP-r                                                  False
+sptest3@broan.com                                        sptest3                                                   False
+Distribution.User@broan.com                              Distribution User                                         False
+Adriano.Pierotti@broan.onmicrosoft.com                   Adriano Pierotti                                          True
+todd.baron@broan.com                                     Todd Baron                                                True
+Fausto.Balducci@broan.onmicrosoft.com                    Fausto Balducci                                           True
+BeckyH@broan.onmicrosoft.com                             Becky Hung                                                True
+Carol.Zentner@broan.com                                  Carol Zentner                                             False
+ALTO@broan.com                                           FTP ALTO                                                  False
+Tim.Wells@broan.com                                      Tim Wells                                                 True
+efrain.flores@broan.com                                  Efrain Flores                                             False
+websales@broan.com                                       WebSales                                                  False
+Jeff.Hurlbut@broan.com                                   Jeff Hurlbut                                              False
+james.west@broan.com                                     James West                                                False
+cnc.htfuser@broan.com                                    CNC HTFUSER                                               False
+Cynthia.Neu@broan.com                                    Cynthia Neu                                               False
+inn.shipping@broan.onmicrosoft.com                       Inn.Shipping                                              False
+Dan.Bothe@broan.com                                      Dan Bothe                                                 False
+Leticia.Alcantar@broan.com                               Leticia Alcantar                                          True
+BNV.msp.farm@broan.onmicrosoft.com                       BNV SharePoint Server farm                                False
+NEWS@broan.com                                           FTP NEWS                                                  False
+tom.blackstone@broan.com                                 Tom Blackstone                                            True
+MistryT@broan.onmicrosoft.com                            Tejal Mistry                                              False
+Rogelio.Robles@broan.com                                 Rogelio Robles                                            False
+Gail.Riggs@broan.com                                     Gail Riggs                                                False
+RobertLagueux@broan.onmicrosoft.com                      Robert Lagueux                                            False
+kristine.huber@broan.com                                 Kristine Huber                                            True
+Marco.Jiang@broan.com                                    Marco Jiang                                               True
+BroanAdmin@broan.com                                     BroanAdmin                                                False
+bill.peng@broan.com                                      Bill Peng                                                 False
+SarahW@broan.onmicrosoft.com                             Sarah Wahl                                                False
+evelyn.galvan@broan.com                                  Evelyn Galvan                                             False
+bnv.training01@broan.onmicrosoft.com                     BNV Training 01                                           False
+MagnyM@broan.onmicrosoft.com                             Marie-Christine Magny                                     False
+NathalieHenriquez@broan.onmicrosoft.com                  Nathalie Henriquez                                        False
+brooke.hawkins@broan.com                                 Brooke Hawkins                                            False
+jodi.starks@broan.com                                    Jodi Starks                                               False
+MS6F8D@broan.com                                         Mike Saedi                                                False
+Jane.Yin@broan.com                                       Jane Yin                                                  False
+Broan.TestMigration3@broan.com                           BroanTestMigration3                                       True
+David.Conrad@broan.com                                   David Conrad                                              False
+Kathy.Stegemeyer@broan.com                               Kathy Stegemeyer                                          False
+BroanCredit@broan.com                                    BroanCredit                                               False
+JulienM@broan.onmicrosoft.com                            Michel Julien                                             True
+karla.gonzalez@broan.com                                 Karla Gonzalez                                            False
+HealthMailbox1c0f3e3af81244fd9bef977f8d9c696d@broan.com  HealthMailbox-BROAN-EXCH-SMTP-010                         False
+Janet.Frank@broan.com                                    Janet Frank                                               False
+Chelsea.Bertheaume@broan.com                             Chelsea Bertheaume                                        False
+samuel.shulka@broan.com                                  Samuel Shulka                                             True
+ven.tiger09@broan.onmicrosoft.com                        Ven.Tiger09                                               False
+ZephyrConferenceRoom@broan.com                           HTF-Zephyr Conference Room                                False
+michelle.fischer@broan.com                               Michelle Fischer                                          True
+BNV.msp.ssp.service@broan.onmicrosoft.com                BNV SharePoint SSP service                                False
+John.Myers@broan.com                                     John Myers                                                False
+Mrinal.Gokhale@broan.com                                 Mrinal Gokhale                                            False
+ernie.torres@broan.com                                   Ernie Torres                                              False
+Robb.Roell@broan.com                                     Robb Roell                                                True
+eric.zastrow@broan.com                                   Eric Zastrow                                              False
+jeff.mueller@broan.com                                   Jeff Mueller                                              False
+Barbara.Coccia@broan.onmicrosoft.com                     Barbara Coccia                                            True
+michelle.gross@broan.com                                 Michelle Gross                                            True
+BroanCommunications-CA@broan.onmicrosoft.com             Broan Communications-CA                                   False
+Chuck.Trauba@broan.com                                   Chuck Trauba                                              False
+Bob.Chvosta@broan.com                                    Bob Chvosta                                               False
+LeclercJ@broan.onmicrosoft.com                           Jean-Sébastien Leclerc                                    False
+best.customerservice@broan.com                           Best CustomerService                                      False
+armando.pacheco@broan.com                                Armando Pacheco                                           False
+Birgit.Praeger@broan.onmicrosoft.com                     Birgit Praeger                                            True
+cafeinnergy@broan.onmicrosoft.com                        Ven.Cafeteria Innergy                                     False
+jason.hermes@broan.com                                   Jason Hermes                                              False
+james.kue@broan.com                                      James Kue                                                 False
+helpdesk@broan.com                                       Broan Helpdesk                                            False
+PattersonT@broan.onmicrosoft.com                         Tracy Patterson                                           False
+LunchRoomAnnex@broan.com                                 HTF-Lunch Room Annex_cfc7e4518b                           False
+Ewelina.Bujak@broan.onmicrosoft.com                      Ewelina Bujak                                             True
+Kim.Wenninger@broan.com                                  Kim Wenninger                                             True
+ven.idrummo@broan.onmicrosoft.com                        ven.idrummon                                              False
+nate.treutel@broan.com                                   Nate Treutel                                              True
+Greg.Martin@broan.com                                    Greg Martin                                               False
+RafalMroczkowski@broan.onmicrosoft.com                   Rafal Mroczkowski                                         False
+ForestD@broan.onmicrosoft.com                            Daniel Forest                                             True
+planet.press@broan.com                                   Planet Press                                              True
+Jacky.Liu@broan.com                                      Jacky Liu                                                 False
+QuayeP@broan.onmicrosoft.com                             Paul Quaye                                                False
+Wyse.Inv13@broan.com                                     Wyse Inv13                                                False
+CervantesJ@broan.onmicrosoft.com                         Jesse Cervantes                                           False
+DNC.User@broan.com                                       DNC User                                                  False
+Anna.Niewlaczyn@broan.onmicrosoft.com                    Anna Niewlaczyn                                           True
+HTFWMSUSR@broan.com                                      FTP HTFWMSUSR                                             False
+ven.amada@broan.onmicrosoft.com                          ven.amada                                                 False
+BlanchardS@broan.onmicrosoft.com                         Simon Blanchard                                           True
+ryan.revers@broan.com                                    Ryan Revers                                               True
+fcpa.bnc@broan.com                                       fcpa bnc                                                  False
+gerardo.cruz@broan.com                                   Gerardo Cruz                                              False
+kenneth.gillis@broan.com                                 Kenneth Gillis                                            False
+srvumb@broan.com                                         Umberto Moriconi - Admin                                  False
+paul.boughner@broan.com                                  Paul Boughner                                             False
+mike.lacrosse@broan.com                                  Mike LaCrosse                                             False
+timothy.weir@broan.com                                   Timothy Weir                                              True
+CZ6R28@broan.com                                         Chad Zhang                                                False
+Dean.Fahrenkrug@broan.com                                Dean Fahrenkrug                                           False
+ChildsC@broan.onmicrosoft.com                            Corey Childs                                              False
+colleen.fredrick@broan.com                               Colleen Fredrick                                          False
+WorkflowNotification-NoReply@broan.com                   SRVK2Service                                              False
+Damian.Baron@broan.onmicrosoft.com                       Damian Baron                                              True
+HenriY@broan.onmicrosoft.com                             Yves Henri                                                True
+marcos.macias@broan.com                                  Marcos Macias                                             True
+ven.tiger07@broan.onmicrosoft.com                        Ven.Tiger07                                               False
+BerthiaumeJ@broan.onmicrosoft.com                        Jean Berthiaume                                           True
+Kamil.Szczhek@broan.onmicrosoft.com                      Kamil Szczhek                                             True
+tiffany.prasser@broan.com                                Tiffany Prasser                                           True
+IUSR_NTNMEX01@broan.com                                  Internet Guest Account                                    False
+RitchieP@broan.onmicrosoft.com                           Patsy Ritchie                                             True
+ven.tiger05@broan.onmicrosoft.com                        Ven.Tiger05                                               False
+HillO@broan.onmicrosoft.com                              Omatie Hill                                               False
+BelangerG@broan.onmicrosoft.com                          Guy Belanger                                              True
+dora.urbalejo@broan.com                                  Dora Urbalejo                                             False
+henry.becker@broan.com                                   Henry Becker                                              False
+broan.admt@broan.com                                     Broan ADMT                                                False
+eli.manning@broan.com                                    Eli Manning                                               False
+Angel.Gonzalez@broan.com                                 Angel Gonzalez                                            False
+LiseLandry@broan.onmicrosoft.com                         Lise Landry                                               False
+Jacy.Zhao@broan.com                                      Jacy Zhao                                                 False
+White.Huang@broan.com                                    White Huang                                               True
+bnv.spsetup@broan.onmicrosoft.com                        BNV SharePoint setup account                              False
+RDSTest1@broan.com                                       RDS Test1                                                 False
+BeaudoinC@broan.onmicrosoft.com                          Caroline Beaudoin                                         True
+Adam.Sojak@broan.com                                     Adam Sojak                                                False
+BNV.wss.search@broan.onmicrosoft.com                     BNV SharePoint Services 3.0 search service account        False
+RSH_FIN_HMI.Service@broan.com                            RSH_FIN_HMI Service                                       False
+Alan.Huang@broan.com                                     Alan Huang                                                False
+NIHSupport@broan.com                                     NIH Support                                               False
+Linda.Dean@broan.com                                     Linda Dean                                                True
+terry.hasby@broan.com                                    Terry Hasby                                               True
+EXEL@broan.com                                           FTP EXEL                                                  False
+PaulS@broan.onmicrosoft.com                              Paul Smith                                                True
+David.Krebs@broan.com                                    David Krebs                                               False
+BNC-Room_VideoConf_@broan.onmicrosoft.com                BNC-Room (Video Conf)                                     False
+GauthierH@broan.onmicrosoft.com                          Harold Gauthier                                           True
+RobergeS@broan.onmicrosoft.com                           Samuel Roberge                                            True
+Flora.Zhang@broan.com                                    Flora Zhang                                               False
+shannon.dockery@broan.com                                Shannon Dockery                                           True
+hr.desk4@broan.com                                       HR Desk4                                                  False
+GignacJ@broan.onmicrosoft.com                            John Gignac                                               False
+Fran_oisPerron@broan.onmicrosoft.com                     Fran?ois Perron                                           False
+JimC@broan.onmicrosoft.com                               Jim Chen                                                  True
+DeanS@broan.onmicrosoft.com                              Dean Striler                                              True
+FLS@broan.com                                            FTP FLS                                                   False
+neil@broan.onmicrosoft.com                               Neil Roepke                                               True
+sptest1@broan.com                                        sptest1                                                   False
+compressor.maint@broan.com                               Compressor Maintenance                                    False
+roberto.herrera@broan.com                                Roberto Herrera                                           True
+srv_broan_sql@broan.com                                  srv_broan_sql                                             False
+VEN-SalleCentred_excellence@broan.onmicrosoft.com        VEN-Salle Centre d'excellence                             False
+dale.jauquet@broan.com                                   Dale Jauquet                                              False
+JensenConferenceRoom@broan.com                           HTF-Jensen Conference Room_102d397930                     False
+ManimuthuT@broan.onmicrosoft.com                         Thomas Manimuthu                                          False
+NIHS.System@broan.com                                    NIHS System                                               False
+SidhuM@broan.onmicrosoft.com                             Mukhtiar Sidhu                                            False
+Jose.Ramirez@broan.com                                   Jose Ramirez                                              False
+BNC-copiers@broan.com                                    BNC-Copiers                                               False
+Raffaela.Bracchetti@broan.onmicrosoft.com                Raffaela Bracchetti                                       True
+maint.user@broan.com                                     Maint User                                                False
+Paul.Yu@broan.com                                        Paul Yu                                                   True
+Arianna.Perini@broan.onmicrosoft.com                     Arianna Perini                                            True
+LapierreC@broan.onmicrosoft.com                          Caroline Lapierre                                         True
+jill.depue@broan.com                                     Jill DePue                                                False
+Chris.Kroeninger@broan.com                               Chris Kroeninger                                          False
+Justin.Gilbert@broan.com                                 Justin Gilbert                                            False
+jason.rodriguez@broan.com                                Jason Rodriguez                                           False
+JonesE@broan.onmicrosoft.com                             Erica Jones                                               False
+erik.ankerson@broan.com                                  Erik Ankerson                                             False
+fcpa.venmar@broan.onmicrosoft.com                        fcpa venmar                                               False
+LVCS@broan.com                                           LVCS                                                      False
+Jean-S_bastienAlarie@broan.onmicrosoft.com               Jean-S?bastien Alarie                                     False
+sap_auto@broan.onmicrosoft.com                           sap_auto                                                  False
+Heidi.Brown@broan.com                                    Heidi Brown                                               False
+srvkjv@broan.com                                         Kris Volkman - Admin                                      False
+Venmar.Admin@broan.onmicrosoft.com                       Venmar.Admin                                              False
+Tom.Kluck@broan.com                                      Tom Kluck                                                 False
+derry.shu@broan.com                                      Derry Shu                                                 False
+Helen.Luo@broan.com                                      Helen Luo                                                 False
+bnv.SPContentPool@broan.com                              BNV SharePoint Content Pool Account                       False
+martha.arce@broan.com                                    Martha Arce                                               True
+Controllo.Accessi@broan.onmicrosoft.com                  Controllo Accessi                                         True
+BSRM06@broan.onmicrosoft.com                             BSRM06                                                    False
+william.lackas@broan.com                                 William Lackas                                            True
+andy.king@broan.com                                      Andrew King                                               False
+SRVSHRPTPLNTPR@broan.com                                 SRVSHRPTPLNTPR                                            False
+HebertF@broan.onmicrosoft.com                            Frédéric Hébert                                           True
+EricS@broan.onmicrosoft.com                              Eric Stokes                                               True
+Cheryl.Gehring@broan.com                                 Cheryl Gehring                                            False
+SRVMAC@broan.com                                         SRVMAC - Michael Castrova                                 False
+Daisy.Deng@broan.com                                     Daisy Deng                                                False
+lois.blasinski@broan.com                                 Lois Blasinski                                            False
+MathieuLebel@broan.onmicrosoft.com                       Mathieu Lebel                                             False
+PAC@broan.com                                            FTP PAC                                                   False
+Bruna.Mascioli@broan.onmicrosoft.com                     Bruna Mascioli                                            True
+linda.dallman@broan.com                                  Linda Dallman                                             False
+Ven.VVi.Audit@broan.onmicrosoft.com                      Ven.VVI.audit                                             False
+Mark.Williams@broan.com                                  Mark Williams                                             True
+Chandrika.Abhang@broan.com                               Chandrika Abhang                                          False
+Kevin.Gahagan@broan.com                                  Kevin Gahagan                                             False
+Patrick.Nielsen@broan.com                                Patrick Nielsen                                           True
+Maribel.Urbalejo@broan.com                               Maribel Urbalejo                                          False
+SPSuperUserRead@broan.com                                SharePoint SuperUser Read                                 False
+Fabrication1@broan.com                                   Best Fabrication1                                         False
+ray.hug@broan.com                                        Ray Hug                                                   True
+Anthony.Pierce@broan.com                                 Anthony Pierce                                            False
+jose.leos@broan.com                                      Jose Leos                                                 False
+Patty.Beck@broan.com                                     Patty Beck                                                True
+camilla.thomas@broan.com                                 Camilla Thomas                                            False
+BNVRoomReservation@broan.com                             BNV Room Reservation                                      False
+Ken.Li@broan.com                                         Ken Li                                                    False
+ccprocessing@broan.com                                   CCProcessing                                              False
+PiotrPerlicki@broan.onmicrosoft.com                      Piotr Perlicki                                            False
+michael.hanson@broan.com                                 Michael Hanson                                            True
+HealthMailbox5d4d0f6b67e04661bf9a2f2911a8eae8@broan.com  HealthMailbox-BROAN-EXCH-SMTP-008                         False
+Roberto.Leo@broan.onmicrosoft.com                        Roberto Leo                                               True
+Peppino.Tonelli@broan.onmicrosoft.com                    Peppino Tonelli                                           True
+Kevin.Zimdars@broan.com                                  Kevin Zimdars                                             True
+Jackie.Woik@broan.com                                    Jackie Woik                                               False
+JoshuaH@broan.onmicrosoft.com                            Joshua Henderson                                          True
+Giancarlo.Ruggeri@broan.onmicrosoft.com                  Giancarlo Ruggeri                                         True
+john.nurse@broan.com                                     John Nurse                                                False
+Dan.Wukitsch@broan.com                                   Dan Wukitsch                                              False
+donald.betters@broan.com                                 Donald Betters                                            False
+BNV.msp.srch@broan.onmicrosoft.com                       BNV SharePoint Windows SharePoint Services Search service False
+DNA@broan.com                                            FTP DNA                                                   False
+Jody.Borde@broan.com                                     Jody Borde                                                False
+Thomas.Gassen@broan.com                                  Thomas Gassen                                             False
+OPS.Admin@broan.com                                      OPS Admin                                                 False
+cally.li@broan.com                                       Cally Li                                                  False
+hr.desk12@broan.com                                      HR Desk12                                                 False
+Rick.Buchmann@broan.com                                  Rick Buchmann                                             True
+Maurizio.Mollari@broan.onmicrosoft.com                   Maurizio Mollari                                          True
+Kathy.Schier@broan.com                                   Kathy Schier                                              False
+javier.valencia-estradamx@broan.com                      Javier Valencia-Estrada                                   False
+SOX@broan.com                                            FTP SOX                                                   False
+Arkadiusz.Madej@broan.onmicrosoft.com                    Arkadiusz Madej                                           True
+lauren.henderson@broan.com                               Lauren Henderson                                          True
+CruzP@broan.onmicrosoft.com                              Phoebe Cruz                                               False
+ncan.user@broan.com                                      Ncan User                                                 False
+amy.rossbach@broan.com                                   Amy Rossbach                                              False
+gabe.weber@broan.com                                     Gabe Weber                                                False
+HamelinM@broan.onmicrosoft.com                           Michel Hamelin                                            True
+melissa.weber@broan.com                                  Melissa Weber                                             False
+kristin.mergener@broan.com                               Kristin Mergener                                          True
+Venmar.Admin.HummingbirdDM@broan.onmicrosoft.com         Venmar Hummingbird DM Admin                               False
+monica.miron@broan.com                                   Monica Miron                                              True
+Jesse.Jiang@broan.com                                    Jesse Jiang                                               False
+Don.Gehring@broan.com                                    Don Gehring                                               False
+jordan.downs@broan.com                                   Jordan Downs                                              False
+LimogesC@broan.onmicrosoft.com                           Chantal Limoges                                           True
+George.Lawrence@broan.com                                George Lawrence                                           False
+Pawel.Gasiorek@broan.onmicrosoft.com                     Pawel Gasiorek                                            True
+CoulombeG@broan.onmicrosoft.com                          Gabrielle Coulombe                                        True
+venqualif@broan.onmicrosoft.com                          Ven Qualif                                                False
+tina.beres@broan.com                                     Tina Beres                                                True
+Maurizio.Minelli@broan.onmicrosoft.com                   Maurizio Minelli                                          True
+Leo.He@broan.com                                         Leo He                                                    True
+Daniele.Baldini@broan.onmicrosoft.com                    Daniele Baldini                                           True
+brent.lillesand@broan.com                                Brent Lillesand                                           False
+Abner.Guo@broan.com                                      Abner Guo                                                 False
+miguel.raygoza@broan.com                                 Miguel Raygoza                                            False
+paul.vega@broan.com                                      Paul Vega                                                 True
+praveen.togara@broan.com                                 Praveen Togara                                            True
+John.Pendergast@broan.com                                John Pendergast                                           False
+Bob.Penlesky@broan.com                                   Bob Penlesky                                              False
+RobertL@broan.onmicrosoft.com                            Robert Love                                               True
+Ian.Salentine@broan.com                                  Ian Salentine                                             False
+chad.paro@broan.com                                      Chad Paro                                                 False
+bnv.msp.setup@broan.onmicrosoft.com                      BNV SharePoint Setup user                                 False
+AshleyOuellette@broan.onmicrosoft.com                    Ashley Ouellette                                          False
+ven.tiger22@broan.onmicrosoft.com                        Ven.Tiger22                                               False
+CoutureG@broan.onmicrosoft.com                           Guy Couture                                               True
+EF9E00@broan.com                                         Edwin Francis                                             False
+HealthMailbox788d951fe1784b8590b9c4c5e50edbc1@broan.com  HealthMailbox-BROAN-EXCH-SMTP-004                         False
+TTS@broan.com                                            FTP TTS                                                   False
+Massimo.Antonelli@broan.onmicrosoft.com                  Massimo Antonelli                                         True
+Michael.Cypher@broan.com                                 Michael Cypher                                            True
+ConnieMilne@broan.onmicrosoft.com                        Connie Milne                                              False
+dylan.reyes@broan.com                                    Dylan Reyes                                               False
+Marilyn.Petruio@broan.onmicrosoft.com                    Marilyn Petruio                                           True
+Tim.Dollhopf@broan.com                                   Tim Dollhopf                                              True
+NutoneConferenceRoom@broan.com                           HTF-NuTone Conference Room_210783b00e                     False
+MartinC@broan.onmicrosoft.com                            Colette Martin                                            True
+Shawn.Gliniecki@broan.com                                Shawn Gliniecki                                           True
+Juan.Gracia@broan.com                                    Juan Gracia                                               False
+bryan.trainor@broan.com                                  Bryan Trainor                                             False
+marie.fenske@broan.com                                   Marie Fenske                                              True
+Israel.Acuna@broan.com                                   Israel Acuna                                              False
+Anney.Lv@broan.com                                       Anney Lv                                                  False
+PatHenaire@broan.onmicrosoft.com                         Pat Henaire                                               False
+cory.stefanski@broan.com                                 Cory Stefanski                                            False
+Wyse.Inv9@broan.com                                      Wyse Inv9                                                 False
+Muriel.Gundrum@broan.com                                 Muriel Gundrum                                            True
+Rafal.Drewkowski@broan.onmicrosoft.com                   Rafal Drewkowski                                          True
+frtquote@broan.com                                       Frt Quote                                                 False
+ZEP-R@broan.com                                          FTP ZEP-R                                                 False
+Michele.Speciale@broan.onmicrosoft.com                   Michele Speciale                                          True
+Ven.Stgprodvvi@broan.onmicrosoft.com                     ven.stgprodvvi                                            False
+Jack.Zheng@broan.com                                     Jack Zheng                                                False
+Javier.Valencia@broan.com                                Javier Valencia                                           False
+MarcouxD@broan.onmicrosoft.com                           Daniel Marcoux                                            True
+TellierJ@broan.onmicrosoft.com                           Jessy Tellier                                             True
+SRVSHRPTQCTRL@broan.com                                  SRVSHRPTQCTRL                                             False
+Rich.Gehring@broan.com                                   Rich Gehring                                              True
+CarolZ@broan.onmicrosoft.com                             Carol Zhang                                               False
+IWAM_BBPM-AD1@broan.com                                  Launch IIS Process Account                                False
+Keith.Multhauf@broan.com                                 Keith Multhauf                                            False
+Saint-CyrP@broan.onmicrosoft.com                         Pierre Saint-Cyr                                          True
+nishant.dige@broan.com                                   Nishant Dige                                              True
+VolkerAdamek@broan.onmicrosoft.com                       Volker Adamek                                             False
+HTFWMSSYS@broan.com                                      FTP HTFWMSSYS                                             False
+>> TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."

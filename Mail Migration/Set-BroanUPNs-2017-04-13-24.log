@@ -1,0 +1,968 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20170413225024
+Username: CONCURRENCY\mepping
+RunAs User: CONCURRENCY\mepping
+Machine: MEPPING-WIN10VM (Microsoft Windows NT 10.0.14393.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 1964
+PSVersion: 5.1.14393.953
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.14393.953
+BuildVersion: 10.0.14393.953
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is Set-BroanUPNs-2017-04-13-24.log
+PS>TerminatingError(Set-MsolUser): "A parameter cannot be found that matches parameter name 'NewUserPrincipalName'."
+Set-MsolUser : A parameter cannot be found that matches parameter name 'NewUserPrincipalName'.
+At Z:\Documents\Github\broan_office365\Mail Migration\Set-CloudUPNsToMatchEmail.ps1:71 char:51
++ ... oluser -UserPrincipalName $user.TempUPN -NewUserPrincipalName $user.I ...
++                                             ~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Set-MsolUser], ParameterBindingException
+    + FullyQualifiedErrorId : NamedParameterNotFound,Microsoft.Online.Administration.Automation.SetUser
+Set-MsolUser : A parameter cannot be found that matches parameter name 'NewUserPrincipalName'.
+At Z:\Documents\Github\broan_office365\Mail Migration\Set-CloudUPNsToMatchEmail.ps1:71 char:51
++ ... oluser -UserPrincipalName $user.TempUPN -NewUserPrincipalName $user.I ...
++                                             ~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Set-MsolUser], ParameterBindingException
+    + FullyQualifiedErrorId : NamedParameterNotFound,Microsoft.Online.Administration.Automation.SetUser
+
+>> TerminatingError(Set-MsolUser): "A parameter cannot be found that matches parameter name 'NewUserPrincipalName'."
+Set-MsolUser : A parameter cannot be found that matches parameter name 'NewUserPrincipalName'.
+At Z:\Documents\Github\broan_office365\Mail Migration\Set-CloudUPNsToMatchEmail.ps1:71 char:51
++ ... oluser -UserPrincipalName $user.TempUPN -NewUserPrincipalName $user.I ...
++                                             ~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Set-MsolUser], ParameterBindingException
+    + FullyQualifiedErrorId : NamedParameterNotFound,Microsoft.Online.Administration.Automation.SetUser
+Set-MsolUser : A parameter cannot be found that matches parameter name 'NewUserPrincipalName'.
+At Z:\Documents\Github\broan_office365\Mail Migration\Set-CloudUPNsToMatchEmail.ps1:71 char:51
++ ... oluser -UserPrincipalName $user.TempUPN -NewUserPrincipalName $user.I ...
++                                             ~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Set-MsolUser], ParameterBindingException
+    + FullyQualifiedErrorId : NamedParameterNotFound,Microsoft.Online.Administration.Automation.SetUser
+
+>> TerminatingError(Set-MsolUser): "A parameter cannot be found that matches parameter name 'NewUserPrincipalName'."
+Set-MsolUser : A parameter cannot be found that matches parameter name 'NewUserPrincipalName'.
+At Z:\Documents\Github\broan_office365\Mail Migration\Set-CloudUPNsToMatchEmail.ps1:71 char:51
++ ... oluser -UserPrincipalName $user.TempUPN -NewUserPrincipalName $user.I ...
++                                             ~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Set-MsolUser], ParameterBindingException
+    + FullyQualifiedErrorId : NamedParameterNotFound,Microsoft.Online.Administration.Automation.SetUser
+Set-MsolUser : A parameter cannot be found that matches parameter name 'NewUserPrincipalName'.
+At Z:\Documents\Github\broan_office365\Mail Migration\Set-CloudUPNsToMatchEmail.ps1:71 char:51
++ ... oluser -UserPrincipalName $user.TempUPN -NewUserPrincipalName $user.I ...
++                                             ~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Set-MsolUser], ParameterBindingException
+    + FullyQualifiedErrorId : NamedParameterNotFound,Microsoft.Online.Administration.Automation.SetUser
+
+>> TerminatingError(Set-MsolUser): "A parameter cannot be found that matches parameter name 'NewUserPrincipalName'."
+Set-MsolUser : A parameter cannot be found that matches parameter name 'NewUserPrincipalName'.
+At Z:\Documents\Github\broan_office365\Mail Migration\Set-CloudUPNsToMatchEmail.ps1:71 char:51
++ ... oluser -UserPrincipalName $user.TempUPN -NewUserPrincipalName $user.I ...
++                                             ~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Set-MsolUser], ParameterBindingException
+    + FullyQualifiedErrorId : NamedParameterNotFound,Microsoft.Online.Administration.Automation.SetUser
+Set-MsolUser : A parameter cannot be found that matches parameter name 'NewUserPrincipalName'.
+At Z:\Documents\Github\broan_office365\Mail Migration\Set-CloudUPNsToMatchEmail.ps1:71 char:51
++ ... oluser -UserPrincipalName $user.TempUPN -NewUserPrincipalName $user.I ...
++                                             ~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Set-MsolUser], ParameterBindingException
+    + FullyQualifiedErrorId : NamedParameterNotFound,Microsoft.Online.Administration.Automation.SetUser
+
+>> TerminatingError(Set-MsolUser): "A parameter cannot be found that matches parameter name 'NewUserPrincipalName'."
+Set-MsolUser : A parameter cannot be found that matches parameter name 'NewUserPrincipalName'.
+At Z:\Documents\Github\broan_office365\Mail Migration\Set-CloudUPNsToMatchEmail.ps1:71 char:51
++ ... oluser -UserPrincipalName $user.TempUPN -NewUserPrincipalName $user.I ...
++                                             ~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Set-MsolUser], ParameterBindingException
+    + FullyQualifiedErrorId : NamedParameterNotFound,Microsoft.Online.Administration.Automation.SetUser
+Set-MsolUser : A parameter cannot be found that matches parameter name 'NewUserPrincipalName'.
+At Z:\Documents\Github\broan_office365\Mail Migration\Set-CloudUPNsToMatchEmail.ps1:71 char:51
++ ... oluser -UserPrincipalName $user.TempUPN -NewUserPrincipalName $user.I ...
++                                             ~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Set-MsolUser], ParameterBindingException
+    + FullyQualifiedErrorId : NamedParameterNotFound,Microsoft.Online.Administration.Automation.SetUser
+
+>> TerminatingError(Set-MsolUser): "A parameter cannot be found that matches parameter name 'NewUserPrincipalName'."
+Set-MsolUser : A parameter cannot be found that matches parameter name 'NewUserPrincipalName'.
+At Z:\Documents\Github\broan_office365\Mail Migration\Set-CloudUPNsToMatchEmail.ps1:71 char:51
++ ... oluser -UserPrincipalName $user.TempUPN -NewUserPrincipalName $user.I ...
++                                             ~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Set-MsolUser], ParameterBindingException
+    + FullyQualifiedErrorId : NamedParameterNotFound,Microsoft.Online.Administration.Automation.SetUser
+Set-MsolUser : A parameter cannot be found that matches parameter name 'NewUserPrincipalName'.
+At Z:\Documents\Github\broan_office365\Mail Migration\Set-CloudUPNsToMatchEmail.ps1:71 char:51
++ ... oluser -UserPrincipalName $user.TempUPN -NewUserPrincipalName $user.I ...
++                                             ~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Set-MsolUser], ParameterBindingException
+    + FullyQualifiedErrorId : NamedParameterNotFound,Microsoft.Online.Administration.Automation.SetUser
+
+>> TerminatingError(Set-MsolUser): "A parameter cannot be found that matches parameter name 'NewUserPrincipalName'."
+Set-MsolUser : A parameter cannot be found that matches parameter name 'NewUserPrincipalName'.
+At Z:\Documents\Github\broan_office365\Mail Migration\Set-CloudUPNsToMatchEmail.ps1:71 char:51
++ ... oluser -UserPrincipalName $user.TempUPN -NewUserPrincipalName $user.I ...
++                                             ~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Set-MsolUser], ParameterBindingException
+    + FullyQualifiedErrorId : NamedParameterNotFound,Microsoft.Online.Administration.Automation.SetUser
+Set-MsolUser : A parameter cannot be found that matches parameter name 'NewUserPrincipalName'.
+At Z:\Documents\Github\broan_office365\Mail Migration\Set-CloudUPNsToMatchEmail.ps1:71 char:51
++ ... oluser -UserPrincipalName $user.TempUPN -NewUserPrincipalName $user.I ...
++                                             ~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Set-MsolUser], ParameterBindingException
+    + FullyQualifiedErrorId : NamedParameterNotFound,Microsoft.Online.Administration.Automation.SetUser
+
+>> TerminatingError(Set-MsolUser): "A parameter cannot be found that matches parameter name 'NewUserPrincipalName'."
+Set-MsolUser : A parameter cannot be found that matches parameter name 'NewUserPrincipalName'.
+At Z:\Documents\Github\broan_office365\Mail Migration\Set-CloudUPNsToMatchEmail.ps1:71 char:51
++ ... oluser -UserPrincipalName $user.TempUPN -NewUserPrincipalName $user.I ...
++                                             ~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Set-MsolUser], ParameterBindingException
+    + FullyQualifiedErrorId : NamedParameterNotFound,Microsoft.Online.Administration.Automation.SetUser
+Set-MsolUser : A parameter cannot be found that matches parameter name 'NewUserPrincipalName'.
+At Z:\Documents\Github\broan_office365\Mail Migration\Set-CloudUPNsToMatchEmail.ps1:71 char:51
++ ... oluser -UserPrincipalName $user.TempUPN -NewUserPrincipalName $user.I ...
++                                             ~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Set-MsolUser], ParameterBindingException
+    + FullyQualifiedErrorId : NamedParameterNotFound,Microsoft.Online.Administration.Automation.SetUser
+
+>> TerminatingError(Set-MsolUser): "A parameter cannot be found that matches parameter name 'NewUserPrincipalName'."
+Set-MsolUser : A parameter cannot be found that matches parameter name 'NewUserPrincipalName'.
+At Z:\Documents\Github\broan_office365\Mail Migration\Set-CloudUPNsToMatchEmail.ps1:71 char:51
++ ... oluser -UserPrincipalName $user.TempUPN -NewUserPrincipalName $user.I ...
++                                             ~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Set-MsolUser], ParameterBindingException
+    + FullyQualifiedErrorId : NamedParameterNotFound,Microsoft.Online.Administration.Automation.SetUser
+Set-MsolUser : A parameter cannot be found that matches parameter name 'NewUserPrincipalName'.
+At Z:\Documents\Github\broan_office365\Mail Migration\Set-CloudUPNsToMatchEmail.ps1:71 char:51
++ ... oluser -UserPrincipalName $user.TempUPN -NewUserPrincipalName $user.I ...
++                                             ~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Set-MsolUser], ParameterBindingException
+    + FullyQualifiedErrorId : NamedParameterNotFound,Microsoft.Online.Administration.Automation.SetUser
+
+>> TerminatingError(Set-MsolUser): "A parameter cannot be found that matches parameter name 'NewUserPrincipalName'."
+Set-MsolUser : A parameter cannot be found that matches parameter name 'NewUserPrincipalName'.
+At Z:\Documents\Github\broan_office365\Mail Migration\Set-CloudUPNsToMatchEmail.ps1:71 char:51
++ ... oluser -UserPrincipalName $user.TempUPN -NewUserPrincipalName $user.I ...
++                                             ~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Set-MsolUser], ParameterBindingException
+    + FullyQualifiedErrorId : NamedParameterNotFound,Microsoft.Online.Administration.Automation.SetUser
+Set-MsolUser : A parameter cannot be found that matches parameter name 'NewUserPrincipalName'.
+At Z:\Documents\Github\broan_office365\Mail Migration\Set-CloudUPNsToMatchEmail.ps1:71 char:51
++ ... oluser -UserPrincipalName $user.TempUPN -NewUserPrincipalName $user.I ...
++                                             ~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Set-MsolUser], ParameterBindingException
+    + FullyQualifiedErrorId : NamedParameterNotFound,Microsoft.Online.Administration.Automation.SetUser
+
+>> TerminatingError(Set-MsolUser): "A parameter cannot be found that matches parameter name 'NewUserPrincipalName'."
+Set-MsolUser : A parameter cannot be found that matches parameter name 'NewUserPrincipalName'.
+At Z:\Documents\Github\broan_office365\Mail Migration\Set-CloudUPNsToMatchEmail.ps1:71 char:51
++ ... oluser -UserPrincipalName $user.TempUPN -NewUserPrincipalName $user.I ...
++                                             ~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Set-MsolUser], ParameterBindingException
+    + FullyQualifiedErrorId : NamedParameterNotFound,Microsoft.Online.Administration.Automation.SetUser
+Set-MsolUser : A parameter cannot be found that matches parameter name 'NewUserPrincipalName'.
+At Z:\Documents\Github\broan_office365\Mail Migration\Set-CloudUPNsToMatchEmail.ps1:71 char:51
++ ... oluser -UserPrincipalName $user.TempUPN -NewUserPrincipalName $user.I ...
++                                             ~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Set-MsolUser], ParameterBindingException
+    + FullyQualifiedErrorId : NamedParameterNotFound,Microsoft.Online.Administration.Automation.SetUser
+
+>> TerminatingError(Set-MsolUser): "A parameter cannot be found that matches parameter name 'NewUserPrincipalName'."
+Set-MsolUser : A parameter cannot be found that matches parameter name 'NewUserPrincipalName'.
+At Z:\Documents\Github\broan_office365\Mail Migration\Set-CloudUPNsToMatchEmail.ps1:71 char:51
++ ... oluser -UserPrincipalName $user.TempUPN -NewUserPrincipalName $user.I ...
++                                             ~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Set-MsolUser], ParameterBindingException
+    + FullyQualifiedErrorId : NamedParameterNotFound,Microsoft.Online.Administration.Automation.SetUser
+Set-MsolUser : A parameter cannot be found that matches parameter name 'NewUserPrincipalName'.
+At Z:\Documents\Github\broan_office365\Mail Migration\Set-CloudUPNsToMatchEmail.ps1:71 char:51
++ ... oluser -UserPrincipalName $user.TempUPN -NewUserPrincipalName $user.I ...
++                                             ~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Set-MsolUser], ParameterBindingException
+    + FullyQualifiedErrorId : NamedParameterNotFound,Microsoft.Online.Administration.Automation.SetUser
+
+>> TerminatingError(Set-MsolUser): "A parameter cannot be found that matches parameter name 'NewUserPrincipalName'."
+Set-MsolUser : A parameter cannot be found that matches parameter name 'NewUserPrincipalName'.
+At Z:\Documents\Github\broan_office365\Mail Migration\Set-CloudUPNsToMatchEmail.ps1:71 char:51
++ ... oluser -UserPrincipalName $user.TempUPN -NewUserPrincipalName $user.I ...
++                                             ~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Set-MsolUser], ParameterBindingException
+    + FullyQualifiedErrorId : NamedParameterNotFound,Microsoft.Online.Administration.Automation.SetUser
+Set-MsolUser : A parameter cannot be found that matches parameter name 'NewUserPrincipalName'.
+At Z:\Documents\Github\broan_office365\Mail Migration\Set-CloudUPNsToMatchEmail.ps1:71 char:51
++ ... oluser -UserPrincipalName $user.TempUPN -NewUserPrincipalName $user.I ...
++                                             ~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Set-MsolUser], ParameterBindingException
+    + FullyQualifiedErrorId : NamedParameterNotFound,Microsoft.Online.Administration.Automation.SetUser
+
+>> TerminatingError(Set-MsolUser): "A parameter cannot be found that matches parameter name 'NewUserPrincipalName'."
+Set-MsolUser : A parameter cannot be found that matches parameter name 'NewUserPrincipalName'.
+At Z:\Documents\Github\broan_office365\Mail Migration\Set-CloudUPNsToMatchEmail.ps1:71 char:51
++ ... oluser -UserPrincipalName $user.TempUPN -NewUserPrincipalName $user.I ...
++                                             ~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Set-MsolUser], ParameterBindingException
+    + FullyQualifiedErrorId : NamedParameterNotFound,Microsoft.Online.Administration.Automation.SetUser
+Set-MsolUser : A parameter cannot be found that matches parameter name 'NewUserPrincipalName'.
+At Z:\Documents\Github\broan_office365\Mail Migration\Set-CloudUPNsToMatchEmail.ps1:71 char:51
++ ... oluser -UserPrincipalName $user.TempUPN -NewUserPrincipalName $user.I ...
++                                             ~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Set-MsolUser], ParameterBindingException
+    + FullyQualifiedErrorId : NamedParameterNotFound,Microsoft.Online.Administration.Automation.SetUser
+
+>> TerminatingError(Set-MsolUser): "A parameter cannot be found that matches parameter name 'NewUserPrincipalName'."
+Set-MsolUser : A parameter cannot be found that matches parameter name 'NewUserPrincipalName'.
+At Z:\Documents\Github\broan_office365\Mail Migration\Set-CloudUPNsToMatchEmail.ps1:71 char:51
++ ... oluser -UserPrincipalName $user.TempUPN -NewUserPrincipalName $user.I ...
++                                             ~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Set-MsolUser], ParameterBindingException
+    + FullyQualifiedErrorId : NamedParameterNotFound,Microsoft.Online.Administration.Automation.SetUser
+Set-MsolUser : A parameter cannot be found that matches parameter name 'NewUserPrincipalName'.
+At Z:\Documents\Github\broan_office365\Mail Migration\Set-CloudUPNsToMatchEmail.ps1:71 char:51
++ ... oluser -UserPrincipalName $user.TempUPN -NewUserPrincipalName $user.I ...
++                                             ~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Set-MsolUser], ParameterBindingException
+    + FullyQualifiedErrorId : NamedParameterNotFound,Microsoft.Online.Administration.Automation.SetUser
+
+>> TerminatingError(Set-MsolUser): "A parameter cannot be found that matches parameter name 'NewUserPrincipalName'."
+Set-MsolUser : A parameter cannot be found that matches parameter name 'NewUserPrincipalName'.
+At Z:\Documents\Github\broan_office365\Mail Migration\Set-CloudUPNsToMatchEmail.ps1:71 char:51
++ ... oluser -UserPrincipalName $user.TempUPN -NewUserPrincipalName $user.I ...
++                                             ~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Set-MsolUser], ParameterBindingException
+    + FullyQualifiedErrorId : NamedParameterNotFound,Microsoft.Online.Administration.Automation.SetUser
+Set-MsolUser : A parameter cannot be found that matches parameter name 'NewUserPrincipalName'.
+At Z:\Documents\Github\broan_office365\Mail Migration\Set-CloudUPNsToMatchEmail.ps1:71 char:51
++ ... oluser -UserPrincipalName $user.TempUPN -NewUserPrincipalName $user.I ...
++                                             ~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Set-MsolUser], ParameterBindingException
+    + FullyQualifiedErrorId : NamedParameterNotFound,Microsoft.Online.Administration.Automation.SetUser
+
+>> TerminatingError(Set-MsolUser): "A parameter cannot be found that matches parameter name 'NewUserPrincipalName'."
+Set-MsolUser : A parameter cannot be found that matches parameter name 'NewUserPrincipalName'.
+At Z:\Documents\Github\broan_office365\Mail Migration\Set-CloudUPNsToMatchEmail.ps1:71 char:51
++ ... oluser -UserPrincipalName $user.TempUPN -NewUserPrincipalName $user.I ...
++                                             ~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Set-MsolUser], ParameterBindingException
+    + FullyQualifiedErrorId : NamedParameterNotFound,Microsoft.Online.Administration.Automation.SetUser
+Set-MsolUser : A parameter cannot be found that matches parameter name 'NewUserPrincipalName'.
+At Z:\Documents\Github\broan_office365\Mail Migration\Set-CloudUPNsToMatchEmail.ps1:71 char:51
++ ... oluser -UserPrincipalName $user.TempUPN -NewUserPrincipalName $user.I ...
++                                             ~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Set-MsolUser], ParameterBindingException
+    + FullyQualifiedErrorId : NamedParameterNotFound,Microsoft.Online.Administration.Automation.SetUser
+
+>> TerminatingError(Set-MsolUser): "A parameter cannot be found that matches parameter name 'NewUserPrincipalName'."
+Set-MsolUser : A parameter cannot be found that matches parameter name 'NewUserPrincipalName'.
+At Z:\Documents\Github\broan_office365\Mail Migration\Set-CloudUPNsToMatchEmail.ps1:71 char:51
++ ... oluser -UserPrincipalName $user.TempUPN -NewUserPrincipalName $user.I ...
++                                             ~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Set-MsolUser], ParameterBindingException
+    + FullyQualifiedErrorId : NamedParameterNotFound,Microsoft.Online.Administration.Automation.SetUser
+Set-MsolUser : A parameter cannot be found that matches parameter name 'NewUserPrincipalName'.
+At Z:\Documents\Github\broan_office365\Mail Migration\Set-CloudUPNsToMatchEmail.ps1:71 char:51
++ ... oluser -UserPrincipalName $user.TempUPN -NewUserPrincipalName $user.I ...
++                                             ~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Set-MsolUser], ParameterBindingException
+    + FullyQualifiedErrorId : NamedParameterNotFound,Microsoft.Online.Administration.Automation.SetUser
+
+>> TerminatingError(Set-MsolUser): "A parameter cannot be found that matches parameter name 'NewUserPrincipalName'."
+Set-MsolUser : A parameter cannot be found that matches parameter name 'NewUserPrincipalName'.
+At Z:\Documents\Github\broan_office365\Mail Migration\Set-CloudUPNsToMatchEmail.ps1:71 char:51
++ ... oluser -UserPrincipalName $user.TempUPN -NewUserPrincipalName $user.I ...
++                                             ~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Set-MsolUser], ParameterBindingException
+    + FullyQualifiedErrorId : NamedParameterNotFound,Microsoft.Online.Administration.Automation.SetUser
+Set-MsolUser : A parameter cannot be found that matches parameter name 'NewUserPrincipalName'.
+At Z:\Documents\Github\broan_office365\Mail Migration\Set-CloudUPNsToMatchEmail.ps1:71 char:51
++ ... oluser -UserPrincipalName $user.TempUPN -NewUserPrincipalName $user.I ...
++                                             ~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Set-MsolUser], ParameterBindingException
+    + FullyQualifiedErrorId : NamedParameterNotFound,Microsoft.Online.Administration.Automation.SetUser
+
+>> TerminatingError(Set-MsolUser): "A parameter cannot be found that matches parameter name 'NewUserPrincipalName'."
+Set-MsolUser : A parameter cannot be found that matches parameter name 'NewUserPrincipalName'.
+At Z:\Documents\Github\broan_office365\Mail Migration\Set-CloudUPNsToMatchEmail.ps1:71 char:51
++ ... oluser -UserPrincipalName $user.TempUPN -NewUserPrincipalName $user.I ...
++                                             ~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Set-MsolUser], ParameterBindingException
+    + FullyQualifiedErrorId : NamedParameterNotFound,Microsoft.Online.Administration.Automation.SetUser
+Set-MsolUser : A parameter cannot be found that matches parameter name 'NewUserPrincipalName'.
+At Z:\Documents\Github\broan_office365\Mail Migration\Set-CloudUPNsToMatchEmail.ps1:71 char:51
++ ... oluser -UserPrincipalName $user.TempUPN -NewUserPrincipalName $user.I ...
++                                             ~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Set-MsolUser], ParameterBindingException
+    + FullyQualifiedErrorId : NamedParameterNotFound,Microsoft.Online.Administration.Automation.SetUser
+
+>> TerminatingError(Set-MsolUser): "A parameter cannot be found that matches parameter name 'NewUserPrincipalName'."
+Set-MsolUser : A parameter cannot be found that matches parameter name 'NewUserPrincipalName'.
+At Z:\Documents\Github\broan_office365\Mail Migration\Set-CloudUPNsToMatchEmail.ps1:71 char:51
++ ... oluser -UserPrincipalName $user.TempUPN -NewUserPrincipalName $user.I ...
++                                             ~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Set-MsolUser], ParameterBindingException
+    + FullyQualifiedErrorId : NamedParameterNotFound,Microsoft.Online.Administration.Automation.SetUser
+Set-MsolUser : A parameter cannot be found that matches parameter name 'NewUserPrincipalName'.
+At Z:\Documents\Github\broan_office365\Mail Migration\Set-CloudUPNsToMatchEmail.ps1:71 char:51
++ ... oluser -UserPrincipalName $user.TempUPN -NewUserPrincipalName $user.I ...
++                                             ~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Set-MsolUser], ParameterBindingException
+    + FullyQualifiedErrorId : NamedParameterNotFound,Microsoft.Online.Administration.Automation.SetUser
+
+>> TerminatingError(Set-MsolUser): "A parameter cannot be found that matches parameter name 'NewUserPrincipalName'."
+Set-MsolUser : A parameter cannot be found that matches parameter name 'NewUserPrincipalName'.
+At Z:\Documents\Github\broan_office365\Mail Migration\Set-CloudUPNsToMatchEmail.ps1:71 char:51
++ ... oluser -UserPrincipalName $user.TempUPN -NewUserPrincipalName $user.I ...
++                                             ~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Set-MsolUser], ParameterBindingException
+    + FullyQualifiedErrorId : NamedParameterNotFound,Microsoft.Online.Administration.Automation.SetUser
+Set-MsolUser : A parameter cannot be found that matches parameter name 'NewUserPrincipalName'.
+At Z:\Documents\Github\broan_office365\Mail Migration\Set-CloudUPNsToMatchEmail.ps1:71 char:51
++ ... oluser -UserPrincipalName $user.TempUPN -NewUserPrincipalName $user.I ...
++                                             ~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Set-MsolUser], ParameterBindingException
+    + FullyQualifiedErrorId : NamedParameterNotFound,Microsoft.Online.Administration.Automation.SetUser
+
+>> TerminatingError(Set-MsolUser): "A parameter cannot be found that matches parameter name 'NewUserPrincipalName'."
+Set-MsolUser : A parameter cannot be found that matches parameter name 'NewUserPrincipalName'.
+At Z:\Documents\Github\broan_office365\Mail Migration\Set-CloudUPNsToMatchEmail.ps1:71 char:51
++ ... oluser -UserPrincipalName $user.TempUPN -NewUserPrincipalName $user.I ...
++                                             ~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Set-MsolUser], ParameterBindingException
+    + FullyQualifiedErrorId : NamedParameterNotFound,Microsoft.Online.Administration.Automation.SetUser
+Set-MsolUser : A parameter cannot be found that matches parameter name 'NewUserPrincipalName'.
+At Z:\Documents\Github\broan_office365\Mail Migration\Set-CloudUPNsToMatchEmail.ps1:71 char:51
++ ... oluser -UserPrincipalName $user.TempUPN -NewUserPrincipalName $user.I ...
++                                             ~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Set-MsolUser], ParameterBindingException
+    + FullyQualifiedErrorId : NamedParameterNotFound,Microsoft.Online.Administration.Automation.SetUser
+
+>> TerminatingError(Set-MsolUser): "A parameter cannot be found that matches parameter name 'NewUserPrincipalName'."
+Set-MsolUser : A parameter cannot be found that matches parameter name 'NewUserPrincipalName'.
+At Z:\Documents\Github\broan_office365\Mail Migration\Set-CloudUPNsToMatchEmail.ps1:71 char:51
++ ... oluser -UserPrincipalName $user.TempUPN -NewUserPrincipalName $user.I ...
++                                             ~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Set-MsolUser], ParameterBindingException
+    + FullyQualifiedErrorId : NamedParameterNotFound,Microsoft.Online.Administration.Automation.SetUser
+Set-MsolUser : A parameter cannot be found that matches parameter name 'NewUserPrincipalName'.
+At Z:\Documents\Github\broan_office365\Mail Migration\Set-CloudUPNsToMatchEmail.ps1:71 char:51
++ ... oluser -UserPrincipalName $user.TempUPN -NewUserPrincipalName $user.I ...
++                                             ~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Set-MsolUser], ParameterBindingException
+    + FullyQualifiedErrorId : NamedParameterNotFound,Microsoft.Online.Administration.Automation.SetUser
+
+>> TerminatingError(Set-MsolUser): "A parameter cannot be found that matches parameter name 'NewUserPrincipalName'."
+Set-MsolUser : A parameter cannot be found that matches parameter name 'NewUserPrincipalName'.
+At Z:\Documents\Github\broan_office365\Mail Migration\Set-CloudUPNsToMatchEmail.ps1:71 char:51
++ ... oluser -UserPrincipalName $user.TempUPN -NewUserPrincipalName $user.I ...
++                                             ~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Set-MsolUser], ParameterBindingException
+    + FullyQualifiedErrorId : NamedParameterNotFound,Microsoft.Online.Administration.Automation.SetUser
+Set-MsolUser : A parameter cannot be found that matches parameter name 'NewUserPrincipalName'.
+At Z:\Documents\Github\broan_office365\Mail Migration\Set-CloudUPNsToMatchEmail.ps1:71 char:51
++ ... oluser -UserPrincipalName $user.TempUPN -NewUserPrincipalName $user.I ...
++                                             ~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Set-MsolUser], ParameterBindingException
+    + FullyQualifiedErrorId : NamedParameterNotFound,Microsoft.Online.Administration.Automation.SetUser
+
+>> TerminatingError(Set-MsolUser): "A parameter cannot be found that matches parameter name 'NewUserPrincipalName'."
+Set-MsolUser : A parameter cannot be found that matches parameter name 'NewUserPrincipalName'.
+At Z:\Documents\Github\broan_office365\Mail Migration\Set-CloudUPNsToMatchEmail.ps1:71 char:51
++ ... oluser -UserPrincipalName $user.TempUPN -NewUserPrincipalName $user.I ...
++                                             ~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Set-MsolUser], ParameterBindingException
+    + FullyQualifiedErrorId : NamedParameterNotFound,Microsoft.Online.Administration.Automation.SetUser
+Set-MsolUser : A parameter cannot be found that matches parameter name 'NewUserPrincipalName'.
+At Z:\Documents\Github\broan_office365\Mail Migration\Set-CloudUPNsToMatchEmail.ps1:71 char:51
++ ... oluser -UserPrincipalName $user.TempUPN -NewUserPrincipalName $user.I ...
++                                             ~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Set-MsolUser], ParameterBindingException
+    + FullyQualifiedErrorId : NamedParameterNotFound,Microsoft.Online.Administration.Automation.SetUser
+
+>> TerminatingError(Set-MsolUser): "A parameter cannot be found that matches parameter name 'NewUserPrincipalName'."
+Set-MsolUser : A parameter cannot be found that matches parameter name 'NewUserPrincipalName'.
+At Z:\Documents\Github\broan_office365\Mail Migration\Set-CloudUPNsToMatchEmail.ps1:71 char:51
++ ... oluser -UserPrincipalName $user.TempUPN -NewUserPrincipalName $user.I ...
++                                             ~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Set-MsolUser], ParameterBindingException
+    + FullyQualifiedErrorId : NamedParameterNotFound,Microsoft.Online.Administration.Automation.SetUser
+Set-MsolUser : A parameter cannot be found that matches parameter name 'NewUserPrincipalName'.
+At Z:\Documents\Github\broan_office365\Mail Migration\Set-CloudUPNsToMatchEmail.ps1:71 char:51
++ ... oluser -UserPrincipalName $user.TempUPN -NewUserPrincipalName $user.I ...
++                                             ~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Set-MsolUser], ParameterBindingException
+    + FullyQualifiedErrorId : NamedParameterNotFound,Microsoft.Online.Administration.Automation.SetUser
+
+>> TerminatingError(Set-MsolUser): "A parameter cannot be found that matches parameter name 'NewUserPrincipalName'."
+Set-MsolUser : A parameter cannot be found that matches parameter name 'NewUserPrincipalName'.
+At Z:\Documents\Github\broan_office365\Mail Migration\Set-CloudUPNsToMatchEmail.ps1:71 char:51
++ ... oluser -UserPrincipalName $user.TempUPN -NewUserPrincipalName $user.I ...
++                                             ~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Set-MsolUser], ParameterBindingException
+    + FullyQualifiedErrorId : NamedParameterNotFound,Microsoft.Online.Administration.Automation.SetUser
+Set-MsolUser : A parameter cannot be found that matches parameter name 'NewUserPrincipalName'.
+At Z:\Documents\Github\broan_office365\Mail Migration\Set-CloudUPNsToMatchEmail.ps1:71 char:51
++ ... oluser -UserPrincipalName $user.TempUPN -NewUserPrincipalName $user.I ...
++                                             ~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Set-MsolUser], ParameterBindingException
+    + FullyQualifiedErrorId : NamedParameterNotFound,Microsoft.Online.Administration.Automation.SetUser
+
+>> TerminatingError(Set-MsolUser): "A parameter cannot be found that matches parameter name 'NewUserPrincipalName'."
+Set-MsolUser : A parameter cannot be found that matches parameter name 'NewUserPrincipalName'.
+At Z:\Documents\Github\broan_office365\Mail Migration\Set-CloudUPNsToMatchEmail.ps1:71 char:51
++ ... oluser -UserPrincipalName $user.TempUPN -NewUserPrincipalName $user.I ...
++                                             ~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Set-MsolUser], ParameterBindingException
+    + FullyQualifiedErrorId : NamedParameterNotFound,Microsoft.Online.Administration.Automation.SetUser
+Set-MsolUser : A parameter cannot be found that matches parameter name 'NewUserPrincipalName'.
+At Z:\Documents\Github\broan_office365\Mail Migration\Set-CloudUPNsToMatchEmail.ps1:71 char:51
++ ... oluser -UserPrincipalName $user.TempUPN -NewUserPrincipalName $user.I ...
++                                             ~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Set-MsolUser], ParameterBindingException
+    + FullyQualifiedErrorId : NamedParameterNotFound,Microsoft.Online.Administration.Automation.SetUser
+
+>> TerminatingError(Set-MsolUser): "A parameter cannot be found that matches parameter name 'NewUserPrincipalName'."
+Set-MsolUser : A parameter cannot be found that matches parameter name 'NewUserPrincipalName'.
+At Z:\Documents\Github\broan_office365\Mail Migration\Set-CloudUPNsToMatchEmail.ps1:71 char:51
++ ... oluser -UserPrincipalName $user.TempUPN -NewUserPrincipalName $user.I ...
++                                             ~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Set-MsolUser], ParameterBindingException
+    + FullyQualifiedErrorId : NamedParameterNotFound,Microsoft.Online.Administration.Automation.SetUser
+Set-MsolUser : A parameter cannot be found that matches parameter name 'NewUserPrincipalName'.
+At Z:\Documents\Github\broan_office365\Mail Migration\Set-CloudUPNsToMatchEmail.ps1:71 char:51
++ ... oluser -UserPrincipalName $user.TempUPN -NewUserPrincipalName $user.I ...
++                                             ~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Set-MsolUser], ParameterBindingException
+    + FullyQualifiedErrorId : NamedParameterNotFound,Microsoft.Online.Administration.Automation.SetUser
+
+>> TerminatingError(Set-MsolUser): "A parameter cannot be found that matches parameter name 'NewUserPrincipalName'."
+Set-MsolUser : A parameter cannot be found that matches parameter name 'NewUserPrincipalName'.
+At Z:\Documents\Github\broan_office365\Mail Migration\Set-CloudUPNsToMatchEmail.ps1:71 char:51
++ ... oluser -UserPrincipalName $user.TempUPN -NewUserPrincipalName $user.I ...
++                                             ~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Set-MsolUser], ParameterBindingException
+    + FullyQualifiedErrorId : NamedParameterNotFound,Microsoft.Online.Administration.Automation.SetUser
+Set-MsolUser : A parameter cannot be found that matches parameter name 'NewUserPrincipalName'.
+At Z:\Documents\Github\broan_office365\Mail Migration\Set-CloudUPNsToMatchEmail.ps1:71 char:51
++ ... oluser -UserPrincipalName $user.TempUPN -NewUserPrincipalName $user.I ...
++                                             ~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Set-MsolUser], ParameterBindingException
+    + FullyQualifiedErrorId : NamedParameterNotFound,Microsoft.Online.Administration.Automation.SetUser
+
+>> TerminatingError(Set-MsolUser): "A parameter cannot be found that matches parameter name 'NewUserPrincipalName'."
+Set-MsolUser : A parameter cannot be found that matches parameter name 'NewUserPrincipalName'.
+At Z:\Documents\Github\broan_office365\Mail Migration\Set-CloudUPNsToMatchEmail.ps1:71 char:51
++ ... oluser -UserPrincipalName $user.TempUPN -NewUserPrincipalName $user.I ...
++                                             ~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Set-MsolUser], ParameterBindingException
+    + FullyQualifiedErrorId : NamedParameterNotFound,Microsoft.Online.Administration.Automation.SetUser
+Set-MsolUser : A parameter cannot be found that matches parameter name 'NewUserPrincipalName'.
+At Z:\Documents\Github\broan_office365\Mail Migration\Set-CloudUPNsToMatchEmail.ps1:71 char:51
++ ... oluser -UserPrincipalName $user.TempUPN -NewUserPrincipalName $user.I ...
++                                             ~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Set-MsolUser], ParameterBindingException
+    + FullyQualifiedErrorId : NamedParameterNotFound,Microsoft.Online.Administration.Automation.SetUser
+
+>> TerminatingError(Set-MsolUser): "A parameter cannot be found that matches parameter name 'NewUserPrincipalName'."
+Set-MsolUser : A parameter cannot be found that matches parameter name 'NewUserPrincipalName'.
+At Z:\Documents\Github\broan_office365\Mail Migration\Set-CloudUPNsToMatchEmail.ps1:71 char:51
++ ... oluser -UserPrincipalName $user.TempUPN -NewUserPrincipalName $user.I ...
++                                             ~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Set-MsolUser], ParameterBindingException
+    + FullyQualifiedErrorId : NamedParameterNotFound,Microsoft.Online.Administration.Automation.SetUser
+Set-MsolUser : A parameter cannot be found that matches parameter name 'NewUserPrincipalName'.
+At Z:\Documents\Github\broan_office365\Mail Migration\Set-CloudUPNsToMatchEmail.ps1:71 char:51
++ ... oluser -UserPrincipalName $user.TempUPN -NewUserPrincipalName $user.I ...
++                                             ~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Set-MsolUser], ParameterBindingException
+    + FullyQualifiedErrorId : NamedParameterNotFound,Microsoft.Online.Administration.Automation.SetUser
+
+>> TerminatingError(Set-MsolUser): "A parameter cannot be found that matches parameter name 'NewUserPrincipalName'."
+Set-MsolUser : A parameter cannot be found that matches parameter name 'NewUserPrincipalName'.
+At Z:\Documents\Github\broan_office365\Mail Migration\Set-CloudUPNsToMatchEmail.ps1:71 char:51
++ ... oluser -UserPrincipalName $user.TempUPN -NewUserPrincipalName $user.I ...
++                                             ~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Set-MsolUser], ParameterBindingException
+    + FullyQualifiedErrorId : NamedParameterNotFound,Microsoft.Online.Administration.Automation.SetUser
+Set-MsolUser : A parameter cannot be found that matches parameter name 'NewUserPrincipalName'.
+At Z:\Documents\Github\broan_office365\Mail Migration\Set-CloudUPNsToMatchEmail.ps1:71 char:51
++ ... oluser -UserPrincipalName $user.TempUPN -NewUserPrincipalName $user.I ...
++                                             ~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Set-MsolUser], ParameterBindingException
+    + FullyQualifiedErrorId : NamedParameterNotFound,Microsoft.Online.Administration.Automation.SetUser
+
+>> TerminatingError(Set-MsolUser): "A parameter cannot be found that matches parameter name 'NewUserPrincipalName'."
+Set-MsolUser : A parameter cannot be found that matches parameter name 'NewUserPrincipalName'.
+At Z:\Documents\Github\broan_office365\Mail Migration\Set-CloudUPNsToMatchEmail.ps1:71 char:51
++ ... oluser -UserPrincipalName $user.TempUPN -NewUserPrincipalName $user.I ...
++                                             ~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Set-MsolUser], ParameterBindingException
+    + FullyQualifiedErrorId : NamedParameterNotFound,Microsoft.Online.Administration.Automation.SetUser
+Set-MsolUser : A parameter cannot be found that matches parameter name 'NewUserPrincipalName'.
+At Z:\Documents\Github\broan_office365\Mail Migration\Set-CloudUPNsToMatchEmail.ps1:71 char:51
++ ... oluser -UserPrincipalName $user.TempUPN -NewUserPrincipalName $user.I ...
++                                             ~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Set-MsolUser], ParameterBindingException
+    + FullyQualifiedErrorId : NamedParameterNotFound,Microsoft.Online.Administration.Automation.SetUser
+
+>> TerminatingError(Set-MsolUser): "A parameter cannot be found that matches parameter name 'NewUserPrincipalName'."
+Set-MsolUser : A parameter cannot be found that matches parameter name 'NewUserPrincipalName'.
+At Z:\Documents\Github\broan_office365\Mail Migration\Set-CloudUPNsToMatchEmail.ps1:71 char:51
++ ... oluser -UserPrincipalName $user.TempUPN -NewUserPrincipalName $user.I ...
++                                             ~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Set-MsolUser], ParameterBindingException
+    + FullyQualifiedErrorId : NamedParameterNotFound,Microsoft.Online.Administration.Automation.SetUser
+Set-MsolUser : A parameter cannot be found that matches parameter name 'NewUserPrincipalName'.
+At Z:\Documents\Github\broan_office365\Mail Migration\Set-CloudUPNsToMatchEmail.ps1:71 char:51
++ ... oluser -UserPrincipalName $user.TempUPN -NewUserPrincipalName $user.I ...
++                                             ~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Set-MsolUser], ParameterBindingException
+    + FullyQualifiedErrorId : NamedParameterNotFound,Microsoft.Online.Administration.Automation.SetUser
+
+>> TerminatingError(Set-MsolUser): "A parameter cannot be found that matches parameter name 'NewUserPrincipalName'."
+Set-MsolUser : A parameter cannot be found that matches parameter name 'NewUserPrincipalName'.
+At Z:\Documents\Github\broan_office365\Mail Migration\Set-CloudUPNsToMatchEmail.ps1:71 char:51
++ ... oluser -UserPrincipalName $user.TempUPN -NewUserPrincipalName $user.I ...
++                                             ~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Set-MsolUser], ParameterBindingException
+    + FullyQualifiedErrorId : NamedParameterNotFound,Microsoft.Online.Administration.Automation.SetUser
+Set-MsolUser : A parameter cannot be found that matches parameter name 'NewUserPrincipalName'.
+At Z:\Documents\Github\broan_office365\Mail Migration\Set-CloudUPNsToMatchEmail.ps1:71 char:51
++ ... oluser -UserPrincipalName $user.TempUPN -NewUserPrincipalName $user.I ...
++                                             ~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Set-MsolUser], ParameterBindingException
+    + FullyQualifiedErrorId : NamedParameterNotFound,Microsoft.Online.Administration.Automation.SetUser
+
+>> TerminatingError(Set-MsolUser): "A parameter cannot be found that matches parameter name 'NewUserPrincipalName'."
+Set-MsolUser : A parameter cannot be found that matches parameter name 'NewUserPrincipalName'.
+At Z:\Documents\Github\broan_office365\Mail Migration\Set-CloudUPNsToMatchEmail.ps1:71 char:51
++ ... oluser -UserPrincipalName $user.TempUPN -NewUserPrincipalName $user.I ...
++                                             ~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Set-MsolUser], ParameterBindingException
+    + FullyQualifiedErrorId : NamedParameterNotFound,Microsoft.Online.Administration.Automation.SetUser
+Set-MsolUser : A parameter cannot be found that matches parameter name 'NewUserPrincipalName'.
+At Z:\Documents\Github\broan_office365\Mail Migration\Set-CloudUPNsToMatchEmail.ps1:71 char:51
++ ... oluser -UserPrincipalName $user.TempUPN -NewUserPrincipalName $user.I ...
++                                             ~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Set-MsolUser], ParameterBindingException
+    + FullyQualifiedErrorId : NamedParameterNotFound,Microsoft.Online.Administration.Automation.SetUser
+
+>> TerminatingError(Set-MsolUser): "A parameter cannot be found that matches parameter name 'NewUserPrincipalName'."
+Set-MsolUser : A parameter cannot be found that matches parameter name 'NewUserPrincipalName'.
+At Z:\Documents\Github\broan_office365\Mail Migration\Set-CloudUPNsToMatchEmail.ps1:71 char:51
++ ... oluser -UserPrincipalName $user.TempUPN -NewUserPrincipalName $user.I ...
++                                             ~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Set-MsolUser], ParameterBindingException
+    + FullyQualifiedErrorId : NamedParameterNotFound,Microsoft.Online.Administration.Automation.SetUser
+Set-MsolUser : A parameter cannot be found that matches parameter name 'NewUserPrincipalName'.
+At Z:\Documents\Github\broan_office365\Mail Migration\Set-CloudUPNsToMatchEmail.ps1:71 char:51
++ ... oluser -UserPrincipalName $user.TempUPN -NewUserPrincipalName $user.I ...
++                                             ~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Set-MsolUser], ParameterBindingException
+    + FullyQualifiedErrorId : NamedParameterNotFound,Microsoft.Online.Administration.Automation.SetUser
+
+>> TerminatingError(Set-MsolUser): "A parameter cannot be found that matches parameter name 'NewUserPrincipalName'."
+Set-MsolUser : A parameter cannot be found that matches parameter name 'NewUserPrincipalName'.
+At Z:\Documents\Github\broan_office365\Mail Migration\Set-CloudUPNsToMatchEmail.ps1:71 char:51
++ ... oluser -UserPrincipalName $user.TempUPN -NewUserPrincipalName $user.I ...
++                                             ~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Set-MsolUser], ParameterBindingException
+    + FullyQualifiedErrorId : NamedParameterNotFound,Microsoft.Online.Administration.Automation.SetUser
+Set-MsolUser : A parameter cannot be found that matches parameter name 'NewUserPrincipalName'.
+At Z:\Documents\Github\broan_office365\Mail Migration\Set-CloudUPNsToMatchEmail.ps1:71 char:51
++ ... oluser -UserPrincipalName $user.TempUPN -NewUserPrincipalName $user.I ...
++                                             ~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Set-MsolUser], ParameterBindingException
+    + FullyQualifiedErrorId : NamedParameterNotFound,Microsoft.Online.Administration.Automation.SetUser
+
+>> TerminatingError(Set-MsolUser): "A parameter cannot be found that matches parameter name 'NewUserPrincipalName'."
+Set-MsolUser : A parameter cannot be found that matches parameter name 'NewUserPrincipalName'.
+At Z:\Documents\Github\broan_office365\Mail Migration\Set-CloudUPNsToMatchEmail.ps1:71 char:51
++ ... oluser -UserPrincipalName $user.TempUPN -NewUserPrincipalName $user.I ...
++                                             ~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Set-MsolUser], ParameterBindingException
+    + FullyQualifiedErrorId : NamedParameterNotFound,Microsoft.Online.Administration.Automation.SetUser
+Set-MsolUser : A parameter cannot be found that matches parameter name 'NewUserPrincipalName'.
+At Z:\Documents\Github\broan_office365\Mail Migration\Set-CloudUPNsToMatchEmail.ps1:71 char:51
++ ... oluser -UserPrincipalName $user.TempUPN -NewUserPrincipalName $user.I ...
++                                             ~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Set-MsolUser], ParameterBindingException
+    + FullyQualifiedErrorId : NamedParameterNotFound,Microsoft.Online.Administration.Automation.SetUser
+
+>> TerminatingError(Set-MsolUser): "A parameter cannot be found that matches parameter name 'NewUserPrincipalName'."
+Set-MsolUser : A parameter cannot be found that matches parameter name 'NewUserPrincipalName'.
+At Z:\Documents\Github\broan_office365\Mail Migration\Set-CloudUPNsToMatchEmail.ps1:71 char:51
++ ... oluser -UserPrincipalName $user.TempUPN -NewUserPrincipalName $user.I ...
++                                             ~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Set-MsolUser], ParameterBindingException
+    + FullyQualifiedErrorId : NamedParameterNotFound,Microsoft.Online.Administration.Automation.SetUser
+Set-MsolUser : A parameter cannot be found that matches parameter name 'NewUserPrincipalName'.
+At Z:\Documents\Github\broan_office365\Mail Migration\Set-CloudUPNsToMatchEmail.ps1:71 char:51
++ ... oluser -UserPrincipalName $user.TempUPN -NewUserPrincipalName $user.I ...
++                                             ~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Set-MsolUser], ParameterBindingException
+    + FullyQualifiedErrorId : NamedParameterNotFound,Microsoft.Online.Administration.Automation.SetUser
+
+>> TerminatingError(Set-MsolUser): "A parameter cannot be found that matches parameter name 'NewUserPrincipalName'."
+Set-MsolUser : A parameter cannot be found that matches parameter name 'NewUserPrincipalName'.
+At Z:\Documents\Github\broan_office365\Mail Migration\Set-CloudUPNsToMatchEmail.ps1:71 char:51
++ ... oluser -UserPrincipalName $user.TempUPN -NewUserPrincipalName $user.I ...
++                                             ~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Set-MsolUser], ParameterBindingException
+    + FullyQualifiedErrorId : NamedParameterNotFound,Microsoft.Online.Administration.Automation.SetUser
+Set-MsolUser : A parameter cannot be found that matches parameter name 'NewUserPrincipalName'.
+At Z:\Documents\Github\broan_office365\Mail Migration\Set-CloudUPNsToMatchEmail.ps1:71 char:51
++ ... oluser -UserPrincipalName $user.TempUPN -NewUserPrincipalName $user.I ...
++                                             ~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Set-MsolUser], ParameterBindingException
+    + FullyQualifiedErrorId : NamedParameterNotFound,Microsoft.Online.Administration.Automation.SetUser
+
+>> TerminatingError(Set-MsolUser): "A parameter cannot be found that matches parameter name 'NewUserPrincipalName'."
+Set-MsolUser : A parameter cannot be found that matches parameter name 'NewUserPrincipalName'.
+At Z:\Documents\Github\broan_office365\Mail Migration\Set-CloudUPNsToMatchEmail.ps1:71 char:51
++ ... oluser -UserPrincipalName $user.TempUPN -NewUserPrincipalName $user.I ...
++                                             ~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Set-MsolUser], ParameterBindingException
+    + FullyQualifiedErrorId : NamedParameterNotFound,Microsoft.Online.Administration.Automation.SetUser
+Set-MsolUser : A parameter cannot be found that matches parameter name 'NewUserPrincipalName'.
+At Z:\Documents\Github\broan_office365\Mail Migration\Set-CloudUPNsToMatchEmail.ps1:71 char:51
++ ... oluser -UserPrincipalName $user.TempUPN -NewUserPrincipalName $user.I ...
++                                             ~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Set-MsolUser], ParameterBindingException
+    + FullyQualifiedErrorId : NamedParameterNotFound,Microsoft.Online.Administration.Automation.SetUser
+
+>> TerminatingError(Set-MsolUser): "A parameter cannot be found that matches parameter name 'NewUserPrincipalName'."
+Set-MsolUser : A parameter cannot be found that matches parameter name 'NewUserPrincipalName'.
+At Z:\Documents\Github\broan_office365\Mail Migration\Set-CloudUPNsToMatchEmail.ps1:71 char:51
++ ... oluser -UserPrincipalName $user.TempUPN -NewUserPrincipalName $user.I ...
++                                             ~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Set-MsolUser], ParameterBindingException
+    + FullyQualifiedErrorId : NamedParameterNotFound,Microsoft.Online.Administration.Automation.SetUser
+Set-MsolUser : A parameter cannot be found that matches parameter name 'NewUserPrincipalName'.
+At Z:\Documents\Github\broan_office365\Mail Migration\Set-CloudUPNsToMatchEmail.ps1:71 char:51
++ ... oluser -UserPrincipalName $user.TempUPN -NewUserPrincipalName $user.I ...
++                                             ~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Set-MsolUser], ParameterBindingException
+    + FullyQualifiedErrorId : NamedParameterNotFound,Microsoft.Online.Administration.Automation.SetUser
+
+>> TerminatingError(Set-MsolUser): "A parameter cannot be found that matches parameter name 'NewUserPrincipalName'."
+Set-MsolUser : A parameter cannot be found that matches parameter name 'NewUserPrincipalName'.
+At Z:\Documents\Github\broan_office365\Mail Migration\Set-CloudUPNsToMatchEmail.ps1:71 char:51
++ ... oluser -UserPrincipalName $user.TempUPN -NewUserPrincipalName $user.I ...
++                                             ~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Set-MsolUser], ParameterBindingException
+    + FullyQualifiedErrorId : NamedParameterNotFound,Microsoft.Online.Administration.Automation.SetUser
+Set-MsolUser : A parameter cannot be found that matches parameter name 'NewUserPrincipalName'.
+At Z:\Documents\Github\broan_office365\Mail Migration\Set-CloudUPNsToMatchEmail.ps1:71 char:51
++ ... oluser -UserPrincipalName $user.TempUPN -NewUserPrincipalName $user.I ...
++                                             ~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Set-MsolUser], ParameterBindingException
+    + FullyQualifiedErrorId : NamedParameterNotFound,Microsoft.Online.Administration.Automation.SetUser
+
+>> TerminatingError(Set-MsolUser): "A parameter cannot be found that matches parameter name 'NewUserPrincipalName'."
+Set-MsolUser : A parameter cannot be found that matches parameter name 'NewUserPrincipalName'.
+At Z:\Documents\Github\broan_office365\Mail Migration\Set-CloudUPNsToMatchEmail.ps1:71 char:51
++ ... oluser -UserPrincipalName $user.TempUPN -NewUserPrincipalName $user.I ...
++                                             ~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Set-MsolUser], ParameterBindingException
+    + FullyQualifiedErrorId : NamedParameterNotFound,Microsoft.Online.Administration.Automation.SetUser
+Set-MsolUser : A parameter cannot be found that matches parameter name 'NewUserPrincipalName'.
+At Z:\Documents\Github\broan_office365\Mail Migration\Set-CloudUPNsToMatchEmail.ps1:71 char:51
++ ... oluser -UserPrincipalName $user.TempUPN -NewUserPrincipalName $user.I ...
++                                             ~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Set-MsolUser], ParameterBindingException
+    + FullyQualifiedErrorId : NamedParameterNotFound,Microsoft.Online.Administration.Automation.SetUser
+
+>> TerminatingError(Set-MsolUser): "A parameter cannot be found that matches parameter name 'NewUserPrincipalName'."
+Set-MsolUser : A parameter cannot be found that matches parameter name 'NewUserPrincipalName'.
+At Z:\Documents\Github\broan_office365\Mail Migration\Set-CloudUPNsToMatchEmail.ps1:71 char:51
++ ... oluser -UserPrincipalName $user.TempUPN -NewUserPrincipalName $user.I ...
++                                             ~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Set-MsolUser], ParameterBindingException
+    + FullyQualifiedErrorId : NamedParameterNotFound,Microsoft.Online.Administration.Automation.SetUser
+Set-MsolUser : A parameter cannot be found that matches parameter name 'NewUserPrincipalName'.
+At Z:\Documents\Github\broan_office365\Mail Migration\Set-CloudUPNsToMatchEmail.ps1:71 char:51
++ ... oluser -UserPrincipalName $user.TempUPN -NewUserPrincipalName $user.I ...
++                                             ~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Set-MsolUser], ParameterBindingException
+    + FullyQualifiedErrorId : NamedParameterNotFound,Microsoft.Online.Administration.Automation.SetUser
+
+>> TerminatingError(Set-MsolUser): "A parameter cannot be found that matches parameter name 'NewUserPrincipalName'."
+Set-MsolUser : A parameter cannot be found that matches parameter name 'NewUserPrincipalName'.
+At Z:\Documents\Github\broan_office365\Mail Migration\Set-CloudUPNsToMatchEmail.ps1:71 char:51
++ ... oluser -UserPrincipalName $user.TempUPN -NewUserPrincipalName $user.I ...
++                                             ~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Set-MsolUser], ParameterBindingException
+    + FullyQualifiedErrorId : NamedParameterNotFound,Microsoft.Online.Administration.Automation.SetUser
+>> TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."
+PS Z:\Documents\Github\broan_office365\Mail Migration> Get-MsolUser
+WARNING: More results are available. Please specify one of the All or MaxResults parameters.
+PS Z:\Documents\Github\broan_office365\Mail Migration> cls
+PS Z:\Documents\Github\broan_office365\Mail Migration> ls
+
+
+    Directory: Z:\Documents\Github\broan_office365\Mail Migration
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----        4/13/2017   1:11 PM                Non-Reusable Scripts
+------        4/12/2017   2:40 PM           2798 Enable-O365Mailboxes.ps1
+------        3/30/2017   3:29 PM            752 ExampleCsv.csv
+------        4/13/2017   1:11 PM         330790 MigrationSpreadsheet.csv
+------        4/13/2017   1:11 PM            167 MigrationWiz_Sample.csv
+------        4/13/2017   1:11 PM           7195 README.md
+------        4/13/2017   8:11 PM           3727 Remove-EmailAddresses.ps1
+------        4/13/2017  10:50 PM          59291 Set-BroanUPNs-2017-04-13-24.log
+------        4/13/2017  10:51 PM           2681 Set-CloudUPNsToMatchEmail.ps1
+------        4/13/2017   1:11 PM            305 Set-EmailToMatchUPN.ps1
+------        3/30/2017   3:26 PM           1695 Set-O365SharedMailboxes.ps1
+------        4/13/2017   1:11 PM           2750 Set-TenantMailForwarding.ps1
+
+
+PS Z:\Documents\Github\broan_office365\Mail Migration> notepad .\Set-CloudUPNsToMatchEmail.ps1
+PS Z:\Documents\Github\broan_office365\Mail Migration> .\Set-CloudUPNsToMatchEmail.ps1 -CsvPath .\MigrationSpreadsheet.csv
+
+
+    Directory: Z:\Documents\Github\broan_office365\Mail Migration
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+------        4/13/2017  10:51 PM              0 Set-BroanUPNs-2017-04-13-35.log
+Transcript started, output file is Set-BroanUPNs-2017-04-13-35.log
+Set-MsolUserPrincipalName : Access Denied. You do not have permissions to call this cmdlet.
+At Z:\Documents\Github\broan_office365\Mail Migration\Set-CloudUPNsToMatchEmail.ps1:71 char:5
++     Set-MsolUserPrincipalName -UserPrincipalName $user.TempUPN -NewUs ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [Set-MsolUserPrincipalName], MicrosoftOnlineException
+    + FullyQualifiedErrorId : Microsoft.Online.Administration.Automation.UserNotFoundException,Microsoft.Online.Administ
+ration.Automation.SetUserPrincipalName
+Set-MsolUserPrincipalName : Access Denied. You do not have permissions to call this cmdlet.
+At Z:\Documents\Github\broan_office365\Mail Migration\Set-CloudUPNsToMatchEmail.ps1:71 char:5
++     Set-MsolUserPrincipalName -UserPrincipalName $user.TempUPN -NewUs ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [Set-MsolUserPrincipalName], MicrosoftOnlineException
+    + FullyQualifiedErrorId : Microsoft.Online.Administration.Automation.UserNotFoundException,Microsoft.Online.Admini
+   stration.Automation.SetUserPrincipalName
+
+Set-MsolUserPrincipalName : Access Denied. You do not have permissions to call this cmdlet.
+At Z:\Documents\Github\broan_office365\Mail Migration\Set-CloudUPNsToMatchEmail.ps1:71 char:5
++     Set-MsolUserPrincipalName -UserPrincipalName $user.TempUPN -NewUs ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [Set-MsolUserPrincipalName], MicrosoftOnlineException
+    + FullyQualifiedErrorId : Microsoft.Online.Administration.Automation.UserNotFoundException,Microsoft.Online.Administ
+ration.Automation.SetUserPrincipalName
+Set-MsolUserPrincipalName : Access Denied. You do not have permissions to call this cmdlet.
+At Z:\Documents\Github\broan_office365\Mail Migration\Set-CloudUPNsToMatchEmail.ps1:71 char:5
++     Set-MsolUserPrincipalName -UserPrincipalName $user.TempUPN -NewUs ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [Set-MsolUserPrincipalName], MicrosoftOnlineException
+    + FullyQualifiedErrorId : Microsoft.Online.Administration.Automation.UserNotFoundException,Microsoft.Online.Admini
+   stration.Automation.SetUserPrincipalName
+
+Set-MsolUserPrincipalName : Access Denied. You do not have permissions to call this cmdlet.
+At Z:\Documents\Github\broan_office365\Mail Migration\Set-CloudUPNsToMatchEmail.ps1:71 char:5
++     Set-MsolUserPrincipalName -UserPrincipalName $user.TempUPN -NewUs ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [Set-MsolUserPrincipalName], MicrosoftOnlineException
+    + FullyQualifiedErrorId : Microsoft.Online.Administration.Automation.UserNotFoundException,Microsoft.Online.Administ
+ration.Automation.SetUserPrincipalName
+Set-MsolUserPrincipalName : Access Denied. You do not have permissions to call this cmdlet.
+At Z:\Documents\Github\broan_office365\Mail Migration\Set-CloudUPNsToMatchEmail.ps1:71 char:5
++     Set-MsolUserPrincipalName -UserPrincipalName $user.TempUPN -NewUs ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [Set-MsolUserPrincipalName], MicrosoftOnlineException
+    + FullyQualifiedErrorId : Microsoft.Online.Administration.Automation.UserNotFoundException,Microsoft.Online.Admini
+   stration.Automation.SetUserPrincipalName
+
+Set-MsolUserPrincipalName : Access Denied. You do not have permissions to call this cmdlet.
+At Z:\Documents\Github\broan_office365\Mail Migration\Set-CloudUPNsToMatchEmail.ps1:71 char:5
++     Set-MsolUserPrincipalName -UserPrincipalName $user.TempUPN -NewUs ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [Set-MsolUserPrincipalName], MicrosoftOnlineException
+    + FullyQualifiedErrorId : Microsoft.Online.Administration.Automation.UserNotFoundException,Microsoft.Online.Administ
+ration.Automation.SetUserPrincipalName
+Set-MsolUserPrincipalName : Access Denied. You do not have permissions to call this cmdlet.
+At Z:\Documents\Github\broan_office365\Mail Migration\Set-CloudUPNsToMatchEmail.ps1:71 char:5
++     Set-MsolUserPrincipalName -UserPrincipalName $user.TempUPN -NewUs ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [Set-MsolUserPrincipalName], MicrosoftOnlineException
+    + FullyQualifiedErrorId : Microsoft.Online.Administration.Automation.UserNotFoundException,Microsoft.Online.Admini
+   stration.Automation.SetUserPrincipalName
+
+Set-MsolUserPrincipalName : Access Denied. You do not have permissions to call this cmdlet.
+At Z:\Documents\Github\broan_office365\Mail Migration\Set-CloudUPNsToMatchEmail.ps1:71 char:5
++     Set-MsolUserPrincipalName -UserPrincipalName $user.TempUPN -NewUs ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [Set-MsolUserPrincipalName], MicrosoftOnlineException
+    + FullyQualifiedErrorId : Microsoft.Online.Administration.Automation.UserNotFoundException,Microsoft.Online.Administ
+ration.Automation.SetUserPrincipalName
+Set-MsolUserPrincipalName : Access Denied. You do not have permissions to call this cmdlet.
+At Z:\Documents\Github\broan_office365\Mail Migration\Set-CloudUPNsToMatchEmail.ps1:71 char:5
++     Set-MsolUserPrincipalName -UserPrincipalName $user.TempUPN -NewUs ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [Set-MsolUserPrincipalName], MicrosoftOnlineException
+    + FullyQualifiedErrorId : Microsoft.Online.Administration.Automation.UserNotFoundException,Microsoft.Online.Admini
+   stration.Automation.SetUserPrincipalName
+
+Set-MsolUserPrincipalName : Access Denied. You do not have permissions to call this cmdlet.
+At Z:\Documents\Github\broan_office365\Mail Migration\Set-CloudUPNsToMatchEmail.ps1:71 char:5
++     Set-MsolUserPrincipalName -UserPrincipalName $user.TempUPN -NewUs ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [Set-MsolUserPrincipalName], MicrosoftOnlineException
+    + FullyQualifiedErrorId : Microsoft.Online.Administration.Automation.UserNotFoundException,Microsoft.Online.Administ
+ration.Automation.SetUserPrincipalName
+Set-MsolUserPrincipalName : Access Denied. You do not have permissions to call this cmdlet.
+At Z:\Documents\Github\broan_office365\Mail Migration\Set-CloudUPNsToMatchEmail.ps1:71 char:5
++     Set-MsolUserPrincipalName -UserPrincipalName $user.TempUPN -NewUs ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [Set-MsolUserPrincipalName], MicrosoftOnlineException
+    + FullyQualifiedErrorId : Microsoft.Online.Administration.Automation.UserNotFoundException,Microsoft.Online.Admini
+   stration.Automation.SetUserPrincipalName
+
+Set-MsolUserPrincipalName : Access Denied. You do not have permissions to call this cmdlet.
+At Z:\Documents\Github\broan_office365\Mail Migration\Set-CloudUPNsToMatchEmail.ps1:71 char:5
++     Set-MsolUserPrincipalName -UserPrincipalName $user.TempUPN -NewUs ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [Set-MsolUserPrincipalName], MicrosoftOnlineException
+    + FullyQualifiedErrorId : Microsoft.Online.Administration.Automation.UserNotFoundException,Microsoft.Online.Administ
+ration.Automation.SetUserPrincipalName
+Set-MsolUserPrincipalName : Access Denied. You do not have permissions to call this cmdlet.
+At Z:\Documents\Github\broan_office365\Mail Migration\Set-CloudUPNsToMatchEmail.ps1:71 char:5
++     Set-MsolUserPrincipalName -UserPrincipalName $user.TempUPN -NewUs ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [Set-MsolUserPrincipalName], MicrosoftOnlineException
+    + FullyQualifiedErrorId : Microsoft.Online.Administration.Automation.UserNotFoundException,Microsoft.Online.Admini
+   stration.Automation.SetUserPrincipalName
+
+Set-MsolUserPrincipalName : Access Denied. You do not have permissions to call this cmdlet.
+At Z:\Documents\Github\broan_office365\Mail Migration\Set-CloudUPNsToMatchEmail.ps1:71 char:5
++     Set-MsolUserPrincipalName -UserPrincipalName $user.TempUPN -NewUs ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [Set-MsolUserPrincipalName], MicrosoftOnlineException
+    + FullyQualifiedErrorId : Microsoft.Online.Administration.Automation.UserNotFoundException,Microsoft.Online.Administ
+ration.Automation.SetUserPrincipalName
+Set-MsolUserPrincipalName : Access Denied. You do not have permissions to call this cmdlet.
+At Z:\Documents\Github\broan_office365\Mail Migration\Set-CloudUPNsToMatchEmail.ps1:71 char:5
++     Set-MsolUserPrincipalName -UserPrincipalName $user.TempUPN -NewUs ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [Set-MsolUserPrincipalName], MicrosoftOnlineException
+    + FullyQualifiedErrorId : Microsoft.Online.Administration.Automation.UserNotFoundException,Microsoft.Online.Admini
+   stration.Automation.SetUserPrincipalName
+
+Set-MsolUserPrincipalName : Access Denied. You do not have permissions to call this cmdlet.
+At Z:\Documents\Github\broan_office365\Mail Migration\Set-CloudUPNsToMatchEmail.ps1:71 char:5
++     Set-MsolUserPrincipalName -UserPrincipalName $user.TempUPN -NewUs ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [Set-MsolUserPrincipalName], MicrosoftOnlineException
+    + FullyQualifiedErrorId : Microsoft.Online.Administration.Automation.UserNotFoundException,Microsoft.Online.Administ
+ration.Automation.SetUserPrincipalName
+Set-MsolUserPrincipalName : Access Denied. You do not have permissions to call this cmdlet.
+At Z:\Documents\Github\broan_office365\Mail Migration\Set-CloudUPNsToMatchEmail.ps1:71 char:5
++     Set-MsolUserPrincipalName -UserPrincipalName $user.TempUPN -NewUs ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [Set-MsolUserPrincipalName], MicrosoftOnlineException
+    + FullyQualifiedErrorId : Microsoft.Online.Administration.Automation.UserNotFoundException,Microsoft.Online.Admini
+   stration.Automation.SetUserPrincipalName
+
+Set-MsolUserPrincipalName : Access Denied. You do not have permissions to call this cmdlet.
+At Z:\Documents\Github\broan_office365\Mail Migration\Set-CloudUPNsToMatchEmail.ps1:71 char:5
++     Set-MsolUserPrincipalName -UserPrincipalName $user.TempUPN -NewUs ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [Set-MsolUserPrincipalName], MicrosoftOnlineException
+    + FullyQualifiedErrorId : Microsoft.Online.Administration.Automation.UserNotFoundException,Microsoft.Online.Administ
+ration.Automation.SetUserPrincipalName
+Set-MsolUserPrincipalName : Access Denied. You do not have permissions to call this cmdlet.
+At Z:\Documents\Github\broan_office365\Mail Migration\Set-CloudUPNsToMatchEmail.ps1:71 char:5
++     Set-MsolUserPrincipalName -UserPrincipalName $user.TempUPN -NewUs ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [Set-MsolUserPrincipalName], MicrosoftOnlineException
+    + FullyQualifiedErrorId : Microsoft.Online.Administration.Automation.UserNotFoundException,Microsoft.Online.Admini
+   stration.Automation.SetUserPrincipalName
+
+Set-MsolUserPrincipalName : Access Denied. You do not have permissions to call this cmdlet.
+At Z:\Documents\Github\broan_office365\Mail Migration\Set-CloudUPNsToMatchEmail.ps1:71 char:5
++     Set-MsolUserPrincipalName -UserPrincipalName $user.TempUPN -NewUs ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [Set-MsolUserPrincipalName], MicrosoftOnlineException
+    + FullyQualifiedErrorId : Microsoft.Online.Administration.Automation.UserNotFoundException,Microsoft.Online.Administ
+ration.Automation.SetUserPrincipalName
+Set-MsolUserPrincipalName : Access Denied. You do not have permissions to call this cmdlet.
+At Z:\Documents\Github\broan_office365\Mail Migration\Set-CloudUPNsToMatchEmail.ps1:71 char:5
++     Set-MsolUserPrincipalName -UserPrincipalName $user.TempUPN -NewUs ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [Set-MsolUserPrincipalName], MicrosoftOnlineException
+    + FullyQualifiedErrorId : Microsoft.Online.Administration.Automation.UserNotFoundException,Microsoft.Online.Admini
+   stration.Automation.SetUserPrincipalName
+
+Set-MsolUserPrincipalName : Access Denied. You do not have permissions to call this cmdlet.
+At Z:\Documents\Github\broan_office365\Mail Migration\Set-CloudUPNsToMatchEmail.ps1:71 char:5
++     Set-MsolUserPrincipalName -UserPrincipalName $user.TempUPN -NewUs ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [Set-MsolUserPrincipalName], MicrosoftOnlineException
+    + FullyQualifiedErrorId : Microsoft.Online.Administration.Automation.UserNotFoundException,Microsoft.Online.Administ
+ration.Automation.SetUserPrincipalName
+Set-MsolUserPrincipalName : Access Denied. You do not have permissions to call this cmdlet.
+At Z:\Documents\Github\broan_office365\Mail Migration\Set-CloudUPNsToMatchEmail.ps1:71 char:5
++     Set-MsolUserPrincipalName -UserPrincipalName $user.TempUPN -NewUs ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [Set-MsolUserPrincipalName], MicrosoftOnlineException
+    + FullyQualifiedErrorId : Microsoft.Online.Administration.Automation.UserNotFoundException,Microsoft.Online.Admini
+   stration.Automation.SetUserPrincipalName
+
+Set-MsolUserPrincipalName : Access Denied. You do not have permissions to call this cmdlet.
+At Z:\Documents\Github\broan_office365\Mail Migration\Set-CloudUPNsToMatchEmail.ps1:71 char:5
++     Set-MsolUserPrincipalName -UserPrincipalName $user.TempUPN -NewUs ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [Set-MsolUserPrincipalName], MicrosoftOnlineException
+    + FullyQualifiedErrorId : Microsoft.Online.Administration.Automation.UserNotFoundException,Microsoft.Online.Administ
+ration.Automation.SetUserPrincipalName
+Set-MsolUserPrincipalName : Access Denied. You do not have permissions to call this cmdlet.
+At Z:\Documents\Github\broan_office365\Mail Migration\Set-CloudUPNsToMatchEmail.ps1:71 char:5
++     Set-MsolUserPrincipalName -UserPrincipalName $user.TempUPN -NewUs ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [Set-MsolUserPrincipalName], MicrosoftOnlineException
+    + FullyQualifiedErrorId : Microsoft.Online.Administration.Automation.UserNotFoundException,Microsoft.Online.Admini
+   stration.Automation.SetUserPrincipalName
+
+Set-MsolUserPrincipalName : Access Denied. You do not have permissions to call this cmdlet.
+At Z:\Documents\Github\broan_office365\Mail Migration\Set-CloudUPNsToMatchEmail.ps1:71 char:5
++     Set-MsolUserPrincipalName -UserPrincipalName $user.TempUPN -NewUs ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [Set-MsolUserPrincipalName], MicrosoftOnlineException
+    + FullyQualifiedErrorId : Microsoft.Online.Administration.Automation.UserNotFoundException,Microsoft.Online.Administ
+ration.Automation.SetUserPrincipalName
+Set-MsolUserPrincipalName : Access Denied. You do not have permissions to call this cmdlet.
+At Z:\Documents\Github\broan_office365\Mail Migration\Set-CloudUPNsToMatchEmail.ps1:71 char:5
++     Set-MsolUserPrincipalName -UserPrincipalName $user.TempUPN -NewUs ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [Set-MsolUserPrincipalName], MicrosoftOnlineException
+    + FullyQualifiedErrorId : Microsoft.Online.Administration.Automation.UserNotFoundException,Microsoft.Online.Admini
+   stration.Automation.SetUserPrincipalName
+
+Set-MsolUserPrincipalName : Access Denied. You do not have permissions to call this cmdlet.
+At Z:\Documents\Github\broan_office365\Mail Migration\Set-CloudUPNsToMatchEmail.ps1:71 char:5
++     Set-MsolUserPrincipalName -UserPrincipalName $user.TempUPN -NewUs ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [Set-MsolUserPrincipalName], MicrosoftOnlineException
+    + FullyQualifiedErrorId : Microsoft.Online.Administration.Automation.UserNotFoundException,Microsoft.Online.Administ
+ration.Automation.SetUserPrincipalName
+Set-MsolUserPrincipalName : Access Denied. You do not have permissions to call this cmdlet.
+At Z:\Documents\Github\broan_office365\Mail Migration\Set-CloudUPNsToMatchEmail.ps1:71 char:5
++     Set-MsolUserPrincipalName -UserPrincipalName $user.TempUPN -NewUs ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [Set-MsolUserPrincipalName], MicrosoftOnlineException
+    + FullyQualifiedErrorId : Microsoft.Online.Administration.Automation.UserNotFoundException,Microsoft.Online.Admini
+   stration.Automation.SetUserPrincipalName
+
+PS Z:\Documents\Github\broan_office365\Mail Migration> TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."
+PS Z:\Documents\Github\broan_office365\Mail Migration> exit
+**********************
+Windows PowerShell transcript end
+End time: 20170413225143
+**********************
