@@ -49,7 +49,7 @@ if ($ExchangePowerShell -eq $null) {
 
     #Put domains to remove in an array
     $domainstoremove = @()
-    $domainstoremove = "broan.com"
+    $domainstoremove = "best-spa.com"
 
     #Gather data
     $remotemailboxes = @()
