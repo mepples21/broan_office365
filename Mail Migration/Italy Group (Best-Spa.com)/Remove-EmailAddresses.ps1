@@ -39,7 +39,7 @@ Start-Transcript -Path $LogFileName
 
 
 #Check for Exchange PowerShell
-$ExchangePowerShell = Get-Mailbox | select -First 1
+$ExchangePowerShell = Get-Mailbox | Select-Object -First 1
 if ($ExchangePowerShell -eq $null) {
     Write-Host "ERROR: This script must be run from the on-premises Exchange Management Shell." -Foreground Red
     Exit(1)
