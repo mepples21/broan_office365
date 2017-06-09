@@ -34,7 +34,7 @@ Wishlist
 
 #Create Output File
 $LogFileName = "Remove-EmailAddresses-$(Get-date -f yyyy-MM-dd-ss).log"
-New-Item -Path $LogFileName
+New-Item -Path $LogFileName -Type File
 Start-Transcript -Path $LogFileName
 
 
