@@ -34,7 +34,7 @@ Wishlist
 
 #Create Output File
 $LogFileName = "Remove-EmailAddresses-$(Get-date -f yyyy-MM-dd-ss).log"
-New-Item -Path $LogFileName
+New-Item -Path $LogFileName -Type File
 Start-Transcript -Path $LogFileName
 
 
@@ -64,6 +64,9 @@ if ($ExchangePowerShell -eq $null) {
     $onpremmailboxes = @()
     $onpremmailboxes = Get-Mailbox -ResultSize Unlimited
 
+    $mailusers = @()
+    $mailusers = Get-MailUser -ResultSize Unlimited
+
     #Remove email addresses for each domain
 
         $remotemailboxes | ForEach-Object {
@@ -72,7 +75,7 @@ if ($ExchangePowerShell -eq $null) {
                 $address = $_.EmailAddresses[$i]
                 if ($address.IsPrimaryAddress -eq $false -and $address.SmtpAddress -like $domain )
                 {
-                    Write-host($address.AddressString.ToString() | out-file c:\addressesRemoved.txt -append )
+                    Write-host($address.AddressString.ToString() | out-file .\addressesRemoved.txt -append )
                     $_.EmailAddresses.RemoveAt($i)
                     $i--
                 }
@@ -85,7 +88,7 @@ if ($ExchangePowerShell -eq $null) {
                 $address = $_.EmailAddresses[$i]
                 if ($address.IsPrimaryAddress -eq $false -and $address.SmtpAddress -like $domain )
                 {
-                    Write-Host($address.AddressString.ToString() | out-file c:\addressesRemoved -Append )
+                    Write-Host($address.AddressString.ToString() | out-file .\addressesRemoved -Append )
                     $_.EmailAddresses.RemoveAt($i)
                     $i--
                 }
@@ -98,7 +101,7 @@ if ($ExchangePowerShell -eq $null) {
                 $address = $_.EmailAddresses[$i]
                 if ($address.IsPrimaryAddress -eq $false -and $address.SmtpAddress -like $domain )
                 {
-                    Write-Host($address.AddressString.ToString() | out-file c:\addressesRemoved -Append )
+                    Write-Host($address.AddressString.ToString() | out-file .\addressesRemoved -Append )
                     $_.EmailAddresses.RemoveAt($i)
                     $i--
                 }
@@ -111,12 +114,25 @@ if ($ExchangePowerShell -eq $null) {
                 $address = $_.EmailAddresses[$i]
                 if ($address.IsPrimaryAddress -eq $false -and $address.SmtpAddress -like $domain )
                 {
-                    Write-Host($address.AddressString.ToString() | out-file c:\addressesRemoved -Append )
+                    Write-Host($address.AddressString.ToString() | out-file .\addressesRemoved -Append )
                     $_.EmailAddresses.RemoveAt($i)
                     $i--
                 }
             }
             Set-Mailbox -Identity $_.Identity -EmailAddresses $_.EmailAddresses
+        }
+        $mailusers | ForEach-Object {
+            for ($i=0;$i -lt $_.EmailAddresses.Count; $i++)
+            {
+                $address = $_.EmailAddresses[$i]
+                if ($address.IsPrimaryAddress -eq $false -and $address.SmtpAddress -like $domain )
+                {
+                    Write-Host($address.AddressString.ToString() | out-file .\addressesRemoved -Append )
+                    $_.EmailAddresses.RemoveAt($i)
+                    $i--
+                }
+            }
+            Set-MailUser -Identity $_.Identity -EmailAddresses $_.EmailAddresses
         }
 
 
