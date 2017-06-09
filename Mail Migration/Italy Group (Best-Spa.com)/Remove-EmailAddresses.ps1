@@ -72,7 +72,7 @@ if ($ExchangePowerShell -eq $null) {
                 $address = $_.EmailAddresses[$i]
                 if ($address.IsPrimaryAddress -eq $false -and $address.SmtpAddress -like $domain )
                 {
-                    Write-host($address.AddressString.ToString() | out-file c:\addressesRemoved.txt -append )
+                    Write-host($address.AddressString.ToString() | out-file .\addressesRemoved.txt -append )
                     $_.EmailAddresses.RemoveAt($i)
                     $i--
                 }
@@ -85,7 +85,7 @@ if ($ExchangePowerShell -eq $null) {
                 $address = $_.EmailAddresses[$i]
                 if ($address.IsPrimaryAddress -eq $false -and $address.SmtpAddress -like $domain )
                 {
-                    Write-Host($address.AddressString.ToString() | out-file c:\addressesRemoved -Append )
+                    Write-Host($address.AddressString.ToString() | out-file .\addressesRemoved -Append )
                     $_.EmailAddresses.RemoveAt($i)
                     $i--
                 }
@@ -98,7 +98,7 @@ if ($ExchangePowerShell -eq $null) {
                 $address = $_.EmailAddresses[$i]
                 if ($address.IsPrimaryAddress -eq $false -and $address.SmtpAddress -like $domain )
                 {
-                    Write-Host($address.AddressString.ToString() | out-file c:\addressesRemoved -Append )
+                    Write-Host($address.AddressString.ToString() | out-file .\addressesRemoved -Append )
                     $_.EmailAddresses.RemoveAt($i)
                     $i--
                 }
@@ -111,7 +111,7 @@ if ($ExchangePowerShell -eq $null) {
                 $address = $_.EmailAddresses[$i]
                 if ($address.IsPrimaryAddress -eq $false -and $address.SmtpAddress -like $domain )
                 {
-                    Write-Host($address.AddressString.ToString() | out-file c:\addressesRemoved -Append )
+                    Write-Host($address.AddressString.ToString() | out-file .\addressesRemoved -Append )
                     $_.EmailAddresses.RemoveAt($i)
                     $i--
                 }
