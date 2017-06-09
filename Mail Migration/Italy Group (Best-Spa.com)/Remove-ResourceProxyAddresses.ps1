@@ -1,5 +1,5 @@
  $SMTPDomainToRemove = "@best-spa.com"
-$AllUsers = Get-ADUser -Filter * -SearchBase "OU=BestSPA,OU=Residential Ventilation,OU=Company,OU=Accounts,DC=nortek,DC=com" -Properties proxyAddresses
+$AllUsers = Get-ADUser -Filter * -SearchBase "OU=AQH,OU=Resources,OU=Accounts,DC=nortek,DC=com" -Properties proxyAddresses
 Foreach($usr In $AllUsers)
 {
     $NewAddressList = @()
