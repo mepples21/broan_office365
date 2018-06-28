@@ -70,7 +70,7 @@ if ($ExchangePowerShell -eq $null) {
             for ($i=0;$i -lt $_.EmailAddresses.Count; $i++)
             {
                 $address = $_.EmailAddresses[$i]
-                if ($address.IsPrimaryAddress -eq $false -and $address.SmtpAddress -like $domain )
+                if ($address.IsPrimaryAddress -eq $false -and $address.SmtpAddress -like $domaintoremove )
                 {
                     Write-host($address.AddressString.ToString() | out-file c:\addressesRemoved.txt -append )
                     $_.EmailAddresses.RemoveAt($i)
@@ -83,7 +83,7 @@ if ($ExchangePowerShell -eq $null) {
             for ($i=0;$i -lt $_.EmailAddresses.Count; $i++)
             {
                 $address = $_.EmailAddresses[$i]
-                if ($address.IsPrimaryAddress -eq $false -and $address.SmtpAddress -like $domain )
+                if ($address.IsPrimaryAddress -eq $false -and $address.SmtpAddress -like $domaintoremove )
                 {
                     Write-Host($address.AddressString.ToString() | out-file c:\addressesRemoved -Append )
                     $_.EmailAddresses.RemoveAt($i)
@@ -96,7 +96,7 @@ if ($ExchangePowerShell -eq $null) {
             for ($i=0;$i -lt $_.EmailAddresses.Count; $i++)
             {
                 $address = $_.EmailAddresses[$i]
-                if ($address.IsPrimaryAddress -eq $false -and $address.SmtpAddress -like $domain )
+                if ($address.IsPrimaryAddress -eq $false -and $address.SmtpAddress -like $domaintoremove )
                 {
                     Write-Host($address.AddressString.ToString() | out-file c:\addressesRemoved -Append )
                     $_.EmailAddresses.RemoveAt($i)
@@ -109,7 +109,7 @@ if ($ExchangePowerShell -eq $null) {
             for ($i=0;$i -lt $_.EmailAddresses.Count; $i++)
             {
                 $address = $_.EmailAddresses[$i]
-                if ($address.IsPrimaryAddress -eq $false -and $address.SmtpAddress -like $domain )
+                if ($address.IsPrimaryAddress -eq $false -and $address.SmtpAddress -like $domaintoremove )
                 {
                     Write-Host($address.AddressString.ToString() | out-file c:\addressesRemoved -Append )
                     $_.EmailAddresses.RemoveAt($i)
